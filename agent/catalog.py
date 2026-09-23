@@ -194,6 +194,20 @@ def product_kind(product: dict) -> str:
     return ""
 
 
+def accessory_kind(product: dict) -> str:
+    """Тип сопутствующего товара, а не упоминание его в описании автомата."""
+    patterns = {
+        "din_rail": r"^(?:(?:din|дин)[\s-]*рейк|рейк\w*[\s-]+(?:din|дин))",
+        "box": r"^(?:бокс\b|боксы\b|щит(?:ок)?\s+(?:модуль|распредел))",
+        "conduit": r"^(?:гофр[аы]\b|гофротруб\w*\b|гофрированн\w*\s+труб|труб\w*\s+(?:\w+\s+){0,2}гофр)",
+    }
+    for field in ("category", "name"):
+        for kind, pattern in patterns.items():
+            if re.search(pattern, product.get(field, "").strip(), re.I):
+                return kind
+    return ""
+
+
 def electrical_values(product: dict) -> dict:
     """Сопоставляет реальные и демо-поля; имя используется лишь при отсутствии поля."""
     specs = product.get("specs", {})
@@ -301,6 +315,22 @@ class Catalog:
                 scored.append((score, total_stock(p) > 0, p))
         scored.sort(key=lambda x: (x[0], x[1]), reverse=True)
         return [self._ensure_detail(p) for _, _, p in scored[:limit]]
+
+    def accessories(self, sku: str, limit_per_kind: int = 2) -> list[dict]:
+        """Категории дополнений и доступные позиции; совместимость требует проверки."""
+        base = self.get(sku)
+        if base is None or accessory_kind(base):
+            return []
+        kinds = {"автомат": ("din_rail", "box"), "кабель": ("conduit",)}.get(product_kind(base), ())
+        groups = {kind: [] for kind in kinds}
+        for p in self.products:
+            kind = accessory_kind(p)
+            if p is base or kind not in groups or len(groups[kind]) >= limit_per_kind:
+                continue
+            self._ensure_detail(p)
+            if accessory_kind(p) == kind and total_stock(p) >= max(p.get("min_order_qty", 1), 1):
+                groups[kind].append(p)
+        return [{"kind": kind, "products": products} for kind, products in groups.items()]
 
     def analogs(self, sku: str, limit: int = 3) -> list[dict]:
         """Аналоги: та же категория, в наличии, максимум совпадающих ключевых характеристик.

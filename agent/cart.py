@@ -14,13 +14,14 @@ import uuid
 
 from .catalog import Catalog, total_stock
 
-CONFIRM_RE = re.compile(r"\b(да|добав\w*|подтвер\w*|согласен|согласна|оформля\w*|беру|ок|окей|yes|иә|иа|қос\w*|раста\w*)\b", re.I)
-NEGATION_RE = re.compile(r"\b(нет|не\s+(надо|нужно|добав\w*|беру)|отмен\w*|жоқ|керек\s+емес)\b", re.I)
+CONFIRM_RE = re.compile(r"\b(да|добав\w*|подтвер\w*|согласен|согласна|оформля\w*|беру|ок|окей|yes|иә|иа|қосыңыз|қосшы|қосыңызшы|растаймын|растаңыз)\b", re.I)
+NEGATION_RE = re.compile(r"\b(нет|не\s+(надо|нужно|добав\w*|беру)|отмен\w*|жоқ|(?:керек|қажет)\s+емес|қоспа\w*|растама\w*|алмай\w*|бас\s+тарт\w*)\b", re.I)
 
 
 def is_explicit_confirmation(text: str) -> bool:
     text = (text or "").lower()
-    return bool(CONFIRM_RE.search(text)) and not NEGATION_RE.search(text)
+    confirmed = CONFIRM_RE.search(text) or re.fullmatch(r"\s*(?:себетке\s+)?қос[.!]?\s*", text)
+    return bool(confirmed) and not NEGATION_RE.search(text)
 
 
 class Cart:
