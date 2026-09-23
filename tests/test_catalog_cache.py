@@ -14,6 +14,7 @@ DATA = Path(__file__).resolve().parents[1] / "data"
 
 def test_fetch_and_load_cache_offline(tmp_path, monkeypatch):
     detail = json.loads((DATA / "api_sample_detail.json").read_text(encoding="utf-8"))
+    detail["name"] += " — Қазақша: Ә Ғ Қ Ң Ө Ұ Ү Һ І"
     listing = {key: detail[key] for key in ("id", "article", "name", "price")}
     pages = Mock(return_value=[catalog.normalize_api_product(listing)])
     get_detail = Mock(return_value=detail)
@@ -26,6 +27,8 @@ def test_fetch_and_load_cache_offline(tmp_path, monkeypatch):
     get_detail.assert_called_once_with("products/detail", {"id": detail["id"]})
 
     saved = json.loads(destination.read_text(encoding="utf-8"))
+    assert detail["name"].encode(encoding="utf-8") in destination.read_bytes()
+    assert saved[0]["name"] == detail["name"]
     assert saved[0]["sku"] == detail["article"]
     assert saved[0]["stock"]["Алматы"] == 5
     assert saved[0]["specs"]["Номинальный ток"] == "250 А"
@@ -37,6 +40,7 @@ def test_fetch_and_load_cache_offline(tmp_path, monkeypatch):
     monkeypatch.setattr(catalog, "load_from_api", Mock(side_effect=AssertionError("network used")))
     offline = catalog.Catalog()
     assert offline.get(detail["article"])["stock"]["Алматы"] == 5
+    assert offline.get(detail["article"])["name"] == detail["name"]
 
 
 def test_failed_detail_keeps_existing_cache(tmp_path, monkeypatch):

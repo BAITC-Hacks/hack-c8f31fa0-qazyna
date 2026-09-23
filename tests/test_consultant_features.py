@@ -58,14 +58,37 @@ def test_accessories_come_from_catalog_without_changing_cart(toolbox, sku, expec
     assert toolbox.cart.items == {} and toolbox.cart.pending == {}
 
 
-def test_missing_accessories_are_categories_without_invented_products(catalog):
+@pytest.mark.parametrize("sku", [BREAKER, CABLE])
+def test_missing_accessories_are_not_offered_even_as_categories(catalog, sku):
     tools = Toolbox(catalog, Cart(catalog))
-    result = tools.recommend_accessories(BREAKER)
-    assert [g["kind"] for g in result["recommendations"]] == ["din_rail", "box"]
-    assert all(g["products"] == [] for g in result["recommendations"])
+    assert catalog.accessories(sku) == []
+    result = tools.recommend_accessories(sku)
+    assert result["recommendations"] == []
     assert "локальной выборке" in result["note"]
+    assert all(name not in json.dumps(result, ensure_ascii=False) for name in ("DIN-рейка", "Бокс", "Гофра"))
     assert tools.recommend_accessories("SE-ATN000143")["recommendations"] == []
     assert "error" in tools.recommend_accessories("unknown")
+
+
+def test_only_available_accessory_groups_are_offered(catalog):
+    catalog = Catalog(catalog.products + [accessory("DIN", "DIN-рейка"),
+                                          accessory("BOX", "Бокс", stock=0)])
+    tools = Toolbox(catalog, Cart(catalog))
+    assert [g["kind"] for g in tools.recommend_accessories(BREAKER)["recommendations"]] == ["din_rail"]
+    catalog.get("DIN")["stock"] = {"Склад": 0}
+    assert catalog.accessories(BREAKER) == []
+    assert tools.recommend_accessories(BREAKER)["recommendations"] == []
+
+
+def test_real_api_catalog_without_accessories_returns_no_recommendations():
+    from agent.catalog import normalize_api_product
+
+    raw = json.loads((Path(__file__).parent / "fixtures" / "catalog_live.json").read_text(encoding="utf-8"))
+    catalog = Catalog([normalize_api_product(p) for p in raw])
+    tools = Toolbox(catalog, Cart(catalog))
+    result = tools.recommend_accessories("11006DEK")
+    assert result["for_sku"] == "11006DEK"
+    assert result["recommendations"] == []
 
 
 def test_accessory_detail_is_loaded_before_checking_stock(catalog, monkeypatch):
@@ -84,7 +107,7 @@ def test_accessory_types_do_not_confuse_base_products(catalog):
     catalog = Catalog(catalog.products + [accessory("BOX", "Бокс для автоматов"),
                                           accessory("CABLE", "Гофрированный кабель")])
     assert catalog.accessories("BOX") == []
-    assert catalog.accessories(CABLE) == [{"kind": "conduit", "products": []}]
+    assert catalog.accessories(CABLE) == []
 
 
 def test_recommended_accessory_still_requires_confirmation(toolbox):
@@ -127,6 +150,24 @@ def test_manager_summary_redacts_payment_details_and_includes_attachment(toolbox
     assert CABLE in result["summary"] and "Проверка вложений" in result["summary"]
 
 
+@pytest.mark.parametrize(("language", "payment_prompt", "verb"), [
+    ("ru", "Пришлите платёжные данные для связи с менеджером.", "Пришлите"),
+    ("ru", "Укажите номер вашей карты.", "Укажите"),
+    ("ru", "Пришлите CVV.", "Пришлите"),
+    ("kk", "Төлем деректерін жіберіңіз.", "жіберіңіз"),
+    ("kk", "Картаның нөмірін жіберіңіз.", "жіберіңіз"),
+])
+def test_manager_summary_does_not_repeat_requests_for_payment_details(toolbox, language, payment_prompt, verb):
+    toolbox.language = language
+    toolbox.record_message("user", "Нужен автомат 16А")
+    toolbox.record_message("assistant", payment_prompt)
+    toolbox.record_message("user", "Вопрос по монтажу", attachment_context=payment_prompt)
+    summary = toolbox.request_manager(reason=payment_prompt)["summary"]
+    assert "Нужен автомат 16А" in summary
+    assert payment_prompt not in summary and verb not in summary
+    assert summary.count("[••••]") == 3
+
+
 def test_empty_manager_request_is_session_local(catalog):
     first = Toolbox(catalog, Cart(catalog))
     second = Toolbox(catalog, Cart(catalog))
@@ -157,9 +198,19 @@ def test_kazakh_refusal_or_question_cannot_confirm_cart(toolbox, text):
     assert toolbox.cart.items == {}
 
 
-@pytest.mark.parametrize("text", ["Иә, қосыңыз", "Растаймын", "Себетке қос"])
-def test_kazakh_explicit_confirmation(text):
+@pytest.mark.parametrize("text", ["иә", "қосыңыз", "ИӘ", "ҚОСЫҢЫЗ", "Иә, қосыңыз", "Растаймын", "Себетке қос"])
+def test_kazakh_explicit_confirmation_updates_cart_only_on_a_later_turn(toolbox, text):
     assert is_explicit_confirmation(text)
+    proposal = toolbox.propose_add_to_cart(BREAKER, 1)
+    toolbox.last_user_message = text
+    assert not toolbox.confirm_add_to_cart(proposal["proposal_id"])["ok"]
+    assert toolbox.cart.items == {}
+    toolbox.cart.turn += 1
+    assert toolbox.confirm_add_to_cart(proposal["proposal_id"])["ok"]
+    assert toolbox.cart.items == {BREAKER: 1}
+    assert proposal["proposal_id"] not in toolbox.cart.pending
+    assert not toolbox.confirm_add_to_cart(proposal["proposal_id"])["ok"]
+    assert toolbox.cart.items == {BREAKER: 1}
 
 
 def test_kazakh_replies_prompt_fallback_and_manager_summary(catalog, monkeypatch):

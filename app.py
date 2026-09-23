@@ -74,8 +74,8 @@ if request := agent.tools.manager_request:
         st.info(request["note"])
         st.text(request["summary"])
         st.write(request["contact"])
-        st.download_button(t("Скачать сводку диалога", "Диалог қорытындысын жүктеу"), request["summary"],
-                           file_name=f"manager-{request['request_id']}.txt", mime="text/plain")
+        st.download_button(t("Скачать сводку диалога", "Диалог қорытындысын жүктеу"), request["summary"].encode(encoding="utf-8"),
+                           file_name=f"manager-{request['request_id']}.txt", mime="text/plain; charset=utf-8")
         st.caption(t("Чтобы обновить сводку, снова нажмите «Позвать менеджера».",
                      "Қорытындыны жаңарту үшін «Менеджерді шақыру» түймесін қайта басыңыз."))
 

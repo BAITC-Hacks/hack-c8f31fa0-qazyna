@@ -46,7 +46,7 @@ def main() -> None:
     if args.pages < 1:
         parser.error("--pages должно быть положительным числом")
 
-    load_dotenv(ROOT / ".env")
+    load_dotenv(ROOT / ".env", encoding="utf-8")
     if not os.getenv("EKT_API_USER") or not os.getenv("EKT_API_PASSWORD"):
         parser.error("Укажите EKT_API_USER и EKT_API_PASSWORD в .env")
     count = fetch_catalog(args.pages)

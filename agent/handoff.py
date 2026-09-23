@@ -3,12 +3,19 @@ import re
 
 from .language import translate
 
+PAYMENT_DETAILS_RE = re.compile(
+    r"\b(?:cvv|cvc|пин|pin|iban|номер\w*\s+(?:\w+\s+){0,2}карт\w*|"
+    r"карт\w*\s+нөмір\w*|плат[её]жн\w*\s+(?:данн\w*|реквизит\w*)|"
+    r"банковск\w*\s+реквизит\w*|төлем\w*\s+(?:дерек\w*|мәлімет\w*))", re.I)
+
 
 def safe_excerpt(text: str, limit: int = 600) -> str:
     # Платёжные реквизиты не включаем в обращение и журнал для менеджера.
     text = " ".join(text.split())
+    if PAYMENT_DETAILS_RE.search(text):
+        # Убираем всю фразу, чтобы не повторить просьбу прислать реквизиты.
+        return "[••••]"
     text = re.sub(r"(?<!\d)(?:\d[ -]?){12,18}\d(?!\d)", "[••••]", text)
-    text = re.sub(r"(?i)\b(?:cvv|cvc|пин|pin|iban|номер карты|карта нөмірі).*", "[••••]", text)
     return text if len(text) <= limit else text[:limit] + "…"
 
 

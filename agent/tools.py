@@ -82,16 +82,20 @@ class Toolbox:
         }
         recommendations = []
         for group in self.catalog.accessories(sku):
+            if not group["products"]:
+                continue
             title, ru, kk = descriptions[group["kind"]]
             self._remember_products(group["products"])
             recommendations.append({"kind": group["kind"], "category": title,
                                     "reason": translate(self.language, ru, kk),
                                     "compatibility": "requires_check",
                                     "products": [_card(p, full=True) for p in group["products"]]})
-        return {"for_sku": base["sku"], "recommendations": recommendations,
-                "note": translate(self.language,
-                    "Совместимость требует проверки. Если список товаров пуст, доступных позиций этой категории в локальной выборке нет. Подбор уточнит менеджер. Корзина не изменена.",
-                    "Үйлесімділікті тексеру қажет. Тауарлар тізімі бос болса, жергілікті каталогта осы санаттың қолжетімді тауарлары жоқ. Менеджер таңдауға көмектеседі. Себет өзгерген жоқ.")}
+        note = translate(self.language,
+            "Предлагай только перечисленные товары из каталога. Совместимость требует проверки. Корзина не изменена.",
+            "Каталогта көрсетілген тауарларды ғана ұсыныңыз. Үйлесімділікті тексеру қажет. Себет өзгерген жоқ.") if recommendations else translate(self.language,
+            "Подходящие сопутствующие товары в локальной выборке не найдены. Не предлагай товары или категории вместо них. Корзина не изменена.",
+            "Сәйкес қосымша тауарлар жергілікті каталогта табылмады. Олардың орнына тауарлар немесе санаттар ұсынбаңыз. Себет өзгерген жоқ.")
+        return {"for_sku": base["sku"], "recommendations": recommendations, "note": note}
 
     def request_manager(self, reason: str = "") -> dict:
         """Готовит обращение в сессии; внешнего канала отправки в демо нет."""
@@ -146,9 +150,9 @@ TOOL_SCHEMAS = [
         {"sku": {"type": "string"}}, ["sku"]),
     _fn("find_analogs", "Аналоги товара из той же категории, которые есть в наличии, с обоснованием.",
         {"sku": {"type": "string"}}, ["sku"]),
-    _fn("recommend_accessories", "Сопутствующие товары: к автомату — DIN-рейка и бокс, к кабелю — гофра. Только каталог; совместимость требует проверки; корзина не меняется.",
+    _fn("recommend_accessories", "Сопутствующие товары: к автомату — DIN-рейка и бокс, к кабелю — гофра. Предлагать только возвращённые товары из каталога. Пустой список — ничего не предлагать. Совместимость требует проверки; корзина не меняется.",
         {"sku": {"type": "string"}}, ["sku"]),
-    _fn("request_manager", "Подготовить сводку диалога для менеджера по просьбе клиента. Обращение сохраняется в сессии; автоматической отправки нет.",
+    _fn("request_manager", "Подготовить сводку диалога для менеджера по просьбе клиента. Не запрашивать платёжные данные. Обращение сохраняется в сессии; автоматической отправки нет.",
         {"reason": {"type": "string"}}),
     _fn("get_purchase_terms", "Условия покупки: payment, delivery, min_order, returns, wholesale, manager_contact или all.",
         {"topic": {"type": "string", "enum": ["all", "payment", "delivery", "min_order", "returns", "wholesale", "manager_contact"]}}),

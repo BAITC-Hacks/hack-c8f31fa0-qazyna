@@ -317,7 +317,7 @@ class Catalog:
         return [self._ensure_detail(p) for _, _, p in scored[:limit]]
 
     def accessories(self, sku: str, limit_per_kind: int = 2) -> list[dict]:
-        """Категории дополнений и доступные позиции; совместимость требует проверки."""
+        """Только доступные дополнения из каталога; пустые группы не предлагаем."""
         base = self.get(sku)
         if base is None or accessory_kind(base):
             return []
@@ -330,7 +330,7 @@ class Catalog:
             self._ensure_detail(p)
             if accessory_kind(p) == kind and total_stock(p) >= max(p.get("min_order_qty", 1), 1):
                 groups[kind].append(p)
-        return [{"kind": kind, "products": products} for kind, products in groups.items()]
+        return [{"kind": kind, "products": products} for kind, products in groups.items() if products]
 
     def analogs(self, sku: str, limit: int = 3) -> list[dict]:
         """Аналоги: та же категория, в наличии, максимум совпадающих ключевых характеристик.
