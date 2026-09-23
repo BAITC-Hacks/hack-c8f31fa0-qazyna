@@ -1,6 +1,5 @@
 .env
 .venv/
-data/catalog_cache.json
 __pycache__/
 .pytest_cache/
 *.pyc
