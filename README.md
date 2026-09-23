@@ -124,11 +124,46 @@ Streamlit и FastAPI, запущенные отдельными процесса
 
 ### Windows — PowerShell
 
+Установите **Python 3.11 или новее** с [python.org/downloads](https://www.python.org/downloads/).
+При установке отметьте **«Add python.exe to PATH»**, затем откройте новое окно PowerShell.
+
+Проверьте доступность Python:
+
+```powershell
+python --version
+```
+
+Если команда не найдена, попробуйте:
+
+```powershell
+py --version
+```
+
+Продолжайте только если одна из команд показывает Python **3.11+**. Для создания
+окружения используйте ту команду, которая сработала.
+
 ```powershell
 git clone https://github.com/BAITC-Hacks/hack-c8f31fa0-qazyna.git
 cd hack-c8f31fa0-qazyna
-py -3 --version
-py -3 -m venv .venv
+```
+
+Создайте окружение **одним** из вариантов:
+
+```powershell
+python -m venv .venv
+```
+
+Если при проверке сработала только `py`, вместо предыдущей команды выполните:
+
+```powershell
+py -m venv .venv
+```
+
+После успешного создания `.venv` все Python-команды выполняются через её
+интерпретатор; активировать окружение отдельно не требуется:
+
+```powershell
+.\.venv\Scripts\python.exe --version
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 Copy-Item .env.example .env
 notepad .env
@@ -146,6 +181,16 @@ notepad .env
 ```powershell
 .\.venv\Scripts\python.exe -m uvicorn server:app --host 127.0.0.1 --port 8000 --workers 1
 ```
+
+#### Если команда не найдена
+
+- Не работает `python` — проверьте `py --version`; если он показывает 3.11+,
+  создайте окружение командой `py -m venv .venv`.
+- Не работают обе команды или версия ниже 3.11 — установите Python 3.11+ по ссылке выше
+  с «Add python.exe to PATH», откройте новый PowerShell и повторите проверку.
+- Не найден `.\.venv\Scripts\python.exe` — убедитесь, что терминал открыт в папке
+  `hack-c8f31fa0-qazyna` и создание `.venv` завершилось без ошибки. Не переходите
+  к установке зависимостей и запуску, пока этот интерпретатор не доступен.
 
 ### macOS — Terminal
 
