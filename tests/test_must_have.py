@@ -1,9 +1,12 @@
 """Тесты по пунктам Must have из кейса ekt.kz (работают без OpenAI)."""
+import json
+from pathlib import Path
+
 from agent.cart import Cart, is_explicit_confirmation
 from agent.catalog import Catalog
 from agent.tools import Toolbox
 
-cat = Catalog()
+cat = Catalog(json.loads((Path(__file__).resolve().parents[1] / "data" / "catalog_sample.json").read_text(encoding="utf-8")))
 
 
 def box():

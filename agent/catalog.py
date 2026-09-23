@@ -1,4 +1,4 @@
-"""Каталог товаров: живой API ekt.kz или демо-выборка (data/catalog_sample.json).
+"""Каталог товаров: локальный кэш, живой API ekt.kz или демо-выборка.
 
 Все инструменты работают с единым нормализованным форматом товара:
 {sku, name, category, brand, price_kzt, unit, min_order_qty,
@@ -99,6 +99,9 @@ def load_from_api(max_pages: int = 5) -> list[dict]:
 
 
 def load_catalog() -> list[dict]:
+    cache = DATA_DIR / "catalog_cache.json"
+    if cache.is_file():
+        return json.loads(cache.read_text(encoding="utf-8"))
     if os.getenv("USE_LIVE_API") == "1" and os.getenv("EKT_API_USER"):
         try:
             return load_from_api()
