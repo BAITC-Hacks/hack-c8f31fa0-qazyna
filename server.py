@@ -111,6 +111,13 @@ def create_app(catalog: Catalog | None = None, agent_factory=ShopAgent) -> FastA
                 ])
                 visitor.agent.tools.record_message("user", body.message)
                 visitor.agent.tools.record_message("assistant", answer)
+            elif body.message in {"Позвать менеджера", "Менеджерді шақыру"}:
+                visitor.agent.tools.record_message("user", body.message)
+                result = visitor.agent.tools.request_manager()
+                answer = "\n\n".join([result["note"], result["summary"], result["contact"]])
+                visitor.agent.messages.extend([{"role": "user", "content": body.message},
+                                               {"role": "assistant", "content": answer}])
+                visitor.agent.tools.record_message("assistant", answer)
             else:
                 try:
                     answer = visitor.agent.ask(body.message)

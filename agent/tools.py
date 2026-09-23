@@ -22,6 +22,9 @@ def _card(p: dict, full: bool = False) -> dict:
     if full:
         c |= {"category": p["category"], "specs": p["specs"], "certificates": p["certificates"],
               "min_order_qty": p.get("min_order_qty", 1)}
+        if not p["certificates"]:
+            c["certificate_note"] = "В базе нет сертификата на этот товар, могу передать запрос менеджеру"
+            c["manager_action"] = "Позвать менеджера"
     return c
 
 
@@ -115,7 +118,7 @@ class Toolbox:
 
     def get_purchase_terms(self, topic: str = "all") -> dict:
         t = load_terms()
-        return t if topic == "all" or topic not in t else {topic: t[topic], "_note": t["_note"]}
+        return t if topic == "all" or topic not in t else {topic: t[topic], "_note": t["_note"], "source": t.get("sources", {}).get(topic, t.get("source")), "verified_at": t.get("verified_at"), "warnings": t.get("warnings", [])}
 
     # --- корзина ---
     def propose_add_to_cart(self, sku: str, qty: int) -> dict:

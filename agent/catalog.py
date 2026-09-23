@@ -117,15 +117,28 @@ def load_from_api(max_pages: int = 5, per_page: int | None = None) -> list[dict]
 
 
 def load_catalog() -> list[dict]:
+    source = os.getenv("CATALOG_SOURCE", "cache").strip().lower()
+    if source not in {"cache", "sample", "api"}:
+        raise ValueError("CATALOG_SOURCE должен быть cache, sample или api")
+    if source == "sample":
+        return json.loads((DATA_DIR / "catalog_sample.json").read_text(encoding="utf-8"))
     cache = DATA_DIR / "catalog_cache.json"
-    if cache.is_file():
-        return json.loads(cache.read_text(encoding="utf-8"))
-    if os.getenv("USE_LIVE_API") == "1" and os.getenv("EKT_API_USER"):
+    if source == "api":
         try:
-            return load_from_api()
-        except Exception as e:  # не выводим URL/учётные данные из исключения
-            print(f"[catalog] API недоступен ({type(e).__name__}), использую демо-выборку")
-    return json.loads((DATA_DIR / "catalog_sample.json").read_text(encoding="utf-8"))
+            products = load_from_api()
+            if not products:
+                raise ValueError("API вернул пустой каталог")
+            return products
+        except Exception as exc:
+            logger.warning("API catalog unavailable (%s); trying real cache", type(exc).__name__)
+            if not cache.is_file():
+                raise RuntimeError("API недоступен и реального кэша нет. Синтетический каталог отключён.") from None
+    if not cache.is_file():
+        raise FileNotFoundError("Нет data/catalog_cache.json. Загрузите реальный кэш через scripts/fetch_catalog.py.")
+    products = json.loads(cache.read_text(encoding="utf-8"))
+    if not isinstance(products, list) or not products:
+        raise ValueError("Реальный кэш пуст или повреждён")
+    return products
 
 
 def load_terms() -> dict:
