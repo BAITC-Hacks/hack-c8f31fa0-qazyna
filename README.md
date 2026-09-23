@@ -27,22 +27,40 @@
    ShopAgent (agent/agent.py) ── OpenAI function calling
         │
    Toolbox (agent/tools.py)
-     ├── Catalog (agent/catalog.py) ── API ekt.kz  /  data/catalog_sample.json
-     └── Cart   (agent/cart.py)     ── защита: propose → явное подтверждение → confirm
+     ├── Catalog (agent/catalog.py) ── data/catalog_cache.json → API ekt.kz → демо-выборка
+     ├── Cart   (agent/cart.py)     ── защита: propose → явное подтверждение → confirm
+     ├── вложения (agent/attachments.py) ── XLSX / DOCX / PDF / фото
+     └── обращение к менеджеру (agent/handoff.py) ── сводка текущей сессии
 ```
+
+Streamlit (`app.py`) и HTTP-виджет (`server.py`, `static/`) используют общие модули агента.
 
 **Безопасность:** модель не может изменить корзину без подтверждения — это проверяет код, а не промпт.
 Подтверждение должно прийти отдельным сообщением после предложения. Платёжные данные не запрашиваются и не хранятся.
 Текст клиента и вложений воспринимается как данные, а не инструкции.
 
 ## Запуск
+Windows PowerShell:
+
+```powershell
+py -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+Copy-Item .env.example .env
+# Заполните OPENAI_API_KEY в .env
+.\.venv\Scripts\python.exe -m pytest -q
+.\.venv\Scripts\python.exe -m streamlit run app.py
+```
+
+Linux/macOS:
+
 ```bash
 python -m venv .venv
-.venv\Scripts\activate            # Mac/Linux: source .venv/bin/activate
-pip install -r requirements.txt
-copy .env.example .env            # Mac/Linux: cp .env.example .env — и заполните ключи
-pytest -q
-streamlit run app.py
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+cp .env.example .env
+# Заполните OPENAI_API_KEY в .env
+python -m pytest -q
+python -m streamlit run app.py
 ```
 
 В чате можно приложить спецификацию в XLSX, DOCX, PDF, JPG или PNG и нажать
@@ -66,19 +84,24 @@ CRM, доставка уведомлений и подключение живо�
 ## Данные
 - `data/catalog_sample.json` — синтетическая выборка каталога со структурой полей из ТЗ
   (артикул, наименование, категория, характеристики, сертификаты, цена, остатки по складам).
-- Для офлайн-демо укажите `EKT_API_USER` и `EKT_API_PASSWORD` в `.env`, затем выполните
+- `data/catalog_cache.json` — закоммиченная выборка из 470 полных карточек для быстрого
+  офлайн-демо. При наличии файла `Catalog` читает его первым, без запросов к API.
+  Изученный API не содержит ссылок на сертификаты, поэтому в этом кэше они пустые;
+  сертификаты доступны в синтетической демо-выборке.
+- Для обновления кэша укажите `EKT_API_USER` и `EKT_API_PASSWORD` в `.env`, затем выполните
   `.venv\Scripts\python.exe scripts/fetch_catalog.py --pages 5` (Linux/macOS: `.venv/bin/python`).
-  Скрипт сохранит полные карточки в `data/catalog_cache.json`; при наличии этого файла
-  `Catalog` читает его без запросов к API. Файл кэша не коммитится.
-- Живой каталог: `USE_LIVE_API=1` в `.env` + логин/пароль API ekt.kz → `agent/catalog.py: load_from_api()`.
+  Скрипт перезапишет `data/catalog_cache.json` полными карточками загруженных страниц.
+- Для работы напрямую с API уберите или переименуйте файл кэша и задайте `USE_LIVE_API=1`
+  вместе с учётными данными API в `.env`. При ошибке загрузки списка используется демо-выборка.
 - `data/purchase_terms.json` — условия покупки (демо, заменить на реальные условия ekt.kz).
 
 ### Контракт API ekt.kz
 - Реальные примеры: `data/api_sample_list.json` и `data/api_sample_detail.json`.
 - Список возвращает `page`, `per_page`, `count`, `items`; `count` относится к текущей странице.
   Загрузчик запрашивает `?page=N`, по умолчанию не более пяти страниц (100 товаров).
-- При поиске и открытии товара `Catalog` запрашивает `/products/detail?id=...`
-  и кэширует карточку в памяти. Ошибка detail возвращается вызывающему коду;
+- При работе без полного локального кэша `Catalog` запрашивает `/products/detail?id=...`
+  и кэширует карточку в памяти. При сетевой ошибке detail он использует полную карточку
+  из локального кэша, если она там есть, с предупреждением об актуальности остатка;
   неполная карточка не выдаётся как товар с нулевым остатком.
 - Артикул — `article`, цена — `price`, остатки — `stores[].quantity`;
   `quantity` используется только при отсутствии складов. Марка и минимальная
@@ -107,11 +130,10 @@ CRM, доставка уведомлений и подключение живо�
 
 Сервер работает отдельно от Streamlit и использует тот же `ShopAgent` и каталог:
 
-```bash
-source .venv/bin/activate
-pip install -r requirements.txt
-uvicorn server:app --host 127.0.0.1 --port 8000
-```
+Windows PowerShell: `.\.venv\Scripts\python.exe -m uvicorn server:app --host 127.0.0.1 --port 8000`.
+
+Linux/macOS: `python -m uvicorn server:app --host 127.0.0.1 --port 8000`
+после активации виртуального окружения.
 
 Заполните `OPENAI_API_KEY` в `.env`. Откройте демо: http://127.0.0.1:8000/.
 Сам интерфейс находится в `static/widget.html`, загрузчик — в `static/widget.js`.

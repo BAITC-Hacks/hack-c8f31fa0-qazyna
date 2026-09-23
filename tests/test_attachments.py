@@ -33,8 +33,6 @@ def test_xlsx_and_docx_text():
 
 
 def test_pdf_text(monkeypatch):
-    from pypdf import PdfReader
-
     monkeypatch.setattr("pypdf.PdfReader", lambda stream: SimpleNamespace(pages=[SimpleNamespace(extract_text=lambda: "IEK-MVA20-1-025-C")]))
     assert "IEK-MVA20-1-025-C" in extract_text("spec.pdf", b"pdf bytes")
 

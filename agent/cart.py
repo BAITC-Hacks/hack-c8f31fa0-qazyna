@@ -69,9 +69,6 @@ class Cart:
         prop = {k: v for k, v in prop.items() if k != "turn"}
         return {"ok": True, "added": prop, "cart": self.summary(), "cart_url": self.url}
 
-    def remove(self, sku: str) -> None:
-        self.items.pop(sku, None)
-
     @property
     def url(self) -> str:
         base = os.getenv("CART_BASE_URL", "http://localhost:8501/")
