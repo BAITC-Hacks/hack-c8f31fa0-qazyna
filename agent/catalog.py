@@ -12,6 +12,7 @@ from __future__ import annotations
 import json
 import os
 import re
+from difflib import get_close_matches
 from pathlib import Path
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
@@ -120,8 +121,42 @@ def total_stock(p: dict) -> int:
     return sum(p["stock"].values())
 
 
+_SEARCH_SYNONYMS = {
+    "автомат": ({"автоматы"}, {"автоматический", "выключатель"},
+                {"автоматические", "выключатели"}),
+    "узо": ({"устройство", "защитного", "отключения"},
+            {"устройства", "защитного", "отключения"}),
+    "ампер": ({"а"}, {"a"}, {"ампера"}, {"амперов"}),
+}
+
+
 def _tokens(text: str) -> set[str]:
-    return set(re.findall(r"[\wа-яё,.]+", text.lower().replace(",", ".")))
+    text = text.lower().replace("ё", "е")
+    text = re.sub(r"(?<=\d),(?=\d)", ".", text)
+    # Отделяем амперы от числа, сохраняя коды моделей и единицы мА/кА.
+    text = re.sub(r"\b(\d+(?:\.\d+)?)([аa]|ампер(?:а|ов)?)\b", r"\1 \2", text)
+    return set(re.findall(r"\w+(?:\.\w+)*", text))
+
+
+def _normalize_synonyms(tokens: set[str]) -> set[str]:
+    normalized = tokens.copy()
+    for canonical, aliases in _SEARCH_SYNONYMS.items():
+        for alias in aliases:
+            if alias <= normalized:
+                normalized.difference_update(alias)
+                normalized.add(canonical)
+    return normalized
+
+
+def _correct_typos(tokens: set[str], vocabulary: set[str]) -> set[str]:
+    corrected = set()
+    for token in tokens:
+        # Числа, обозначения моделей и короткие сокращения не исправляем.
+        if token not in vocabulary and token.isalpha() and len(token) >= 4:
+            matches = get_close_matches(token, vocabulary, n=1, cutoff=0.8)
+            token = matches[0] if matches else token
+        corrected.add(token)
+    return corrected
 
 
 class Catalog:
@@ -147,15 +182,30 @@ class Catalog:
         return self._ensure_detail(product) if product is not None else None
 
     def search(self, query: str, limit: int = 5) -> list[dict]:
-        """Простой поиск по артикулу/названию/бренду/характеристикам (подсчёт совпавших слов)."""
+        """Поиск по артикулу/названию/бренду/характеристикам с синонимами и опечатками.
+
+        Неизвестные слова запроса исправляем по словарю каталога и синонимов.
+        Точный артикул имеет приоритет; при равном числе совпадений — наличие.
+        """
         exact = self.get(query)
         if exact:
             return [exact]
-        q = _tokens(query)
-        scored = []
+        entries = []
+        vocabulary = set(_SEARCH_SYNONYMS)
+        for aliases in _SEARCH_SYNONYMS.values():
+            for alias in aliases:
+                vocabulary.update(alias)
         for p in self.products:
-            hay = _tokens(" ".join([p["sku"], p["name"], p["category"], p["brand"],
-                                    " ".join(f"{k} {v}" for k, v in p["specs"].items())]))
+            tokens = _tokens(" ".join([p["sku"], p["name"], p["category"], p["brand"],
+                                       " ".join(f"{k} {v}" for k, v in p["specs"].items())]))
+            vocabulary.update(tokens)
+            # Сохраняем и отдельные слова фраз для запроса «выключатель».
+            entries.append((p, tokens | _normalize_synonyms(tokens)))
+        vocabulary = {word for word in vocabulary if word.isalpha() and len(word) >= 4}
+        # Исправляем до свёртки фраз: «автоматическй выключатель» тоже синоним.
+        q = _normalize_synonyms(_correct_typos(_tokens(query), vocabulary))
+        scored = []
+        for p, hay in entries:
             score = len(q & hay)
             if score:
                 scored.append((score, total_stock(p) > 0, p))
