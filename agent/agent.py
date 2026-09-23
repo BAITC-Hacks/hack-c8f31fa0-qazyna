@@ -42,10 +42,15 @@ class ShopAgent:
         self.messages: list = [{"role": "system", "content": SYSTEM_PROMPT}]
         self.trace: list[dict] = []
 
-    def ask(self, user_text: str) -> str:
+    def ask(self, user_text: str, attachment_context: str | None = None) -> str:
         self.tools.last_user_message = user_text
         self.tools.cart.turn += 1
-        self.messages.append({"role": "user", "content": user_text})
+        content = user_text
+        if attachment_context:
+            content += ("\n\n" + attachment_context + "\nПроверь и изложи результат по каждой позиции. "
+                        "Используй только данные каталога из контекста; для отсутствующих товаров предложи указанные аналоги с отличиями. "
+                        "Отсутствие в локальном каталоге не означает отсутствие на сайте.")
+        self.messages.append({"role": "user", "content": content})
         for step in range(self.max_steps):
             # Последний раунд предназначен для ответа по уже собранным данным.
             options = {"tool_choice": "none"} if step == self.max_steps - 1 else {}

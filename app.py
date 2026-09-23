@@ -2,6 +2,7 @@
 import streamlit as st
 
 from agent.agent import ShopAgent
+from agent.attachments import extract_text, specification_context
 from agent.cart import CartStore
 from agent.catalog import Catalog
 
@@ -42,10 +43,10 @@ cart = agent.tools.cart
 st.title("⚡ ИИ-консультант ekt.kz")
 
 
-def send(text: str):
-    st.session_state.chat.append(("user", text))
+def send(text: str, attachment_context: str | None = None, display_text: str | None = None):
+    st.session_state.chat.append(("user", display_text or text))
     with st.spinner("Ищу в каталоге..."):
-        st.session_state.chat.append(("assistant", agent.ask(text)))
+        st.session_state.chat.append(("assistant", agent.ask(text, attachment_context=attachment_context)))
 
 
 for role, text in st.session_state.chat:
@@ -65,6 +66,20 @@ cols = st.columns(len(examples))
 for col, ex in zip(cols, examples):
     if col.button(ex, use_container_width=True):
         send(ex)
+        st.rerun()
+
+uploaded = st.file_uploader("Приложить спецификацию", type=["xlsx", "docx", "pdf", "jpg", "jpeg", "png"])
+if st.button("Проверить спецификацию", disabled=uploaded is None):
+    try:
+        extracted = extract_text(uploaded.name, uploaded.getvalue(), vision_client=agent.client)
+        context = specification_context(extracted, store.catalog)
+    except ValueError as exc:
+        st.error(str(exc))
+    except Exception:
+        st.error("Не удалось обработать файл. Проверьте формат и повторите попытку.")
+    else:
+        send("Проверь приложенную спецификацию.", attachment_context=context,
+             display_text=f"Приложена спецификация: {uploaded.name}")
         st.rerun()
 
 if q := st.chat_input("Напишите вопрос…"):
