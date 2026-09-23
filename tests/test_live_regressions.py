@@ -14,7 +14,7 @@ DATA = Path(__file__).resolve().parents[1] / 'data'
 
 
 def real_catalog():
-    return Catalog([normalize_api_product(p) for p in json.loads((Path(__file__).parent / 'fixtures' / 'catalog_live.json').read_text())])
+    return Catalog([normalize_api_product(p) for p in json.loads((Path(__file__).parent / 'fixtures' / 'catalog_live.json').read_text(encoding="utf-8"))])
 
 
 def test_real_iek_query_respects_brand_current_poles():
@@ -51,9 +51,9 @@ def test_real_analogs_do_not_change_current_or_poles():
 
 def test_timeout_uses_cached_detail(tmp_path, monkeypatch, caplog):
     from agent import catalog
-    raw = json.loads((DATA / 'api_sample_detail.json').read_text())
+    raw = json.loads((DATA / 'api_sample_detail.json').read_text(encoding="utf-8"))
     full = normalize_api_product(raw)
-    (tmp_path / 'catalog_cache.json').write_text(json.dumps([full]))
+    (tmp_path / 'catalog_cache.json').write_text(json.dumps([full]), encoding="utf-8")
     monkeypatch.setattr(catalog, 'DATA_DIR', tmp_path)
     monkeypatch.setattr(catalog, '_api_get', Mock(side_effect=requests.Timeout('secret should not be logged')))
     partial = normalize_api_product({k: raw[k] for k in ('id','article','name','price')})
