@@ -2,6 +2,9 @@
 from __future__ import annotations
 
 import json
+import logging
+
+logger = logging.getLogger(__name__)
 
 from .cart import Cart
 from .catalog import Catalog, load_terms, total_stock
@@ -10,6 +13,9 @@ from .catalog import Catalog, load_terms, total_stock
 def _card(p: dict, full: bool = False) -> dict:
     c = {"sku": p["sku"], "name": p["name"], "brand": p["brand"], "price_kzt": p["price_kzt"],
          "unit": p["unit"], "in_stock": total_stock(p), "stock_by_warehouse": p["stock"]}
+    c["specs"] = p["specs"]
+    if p.get("data_warning"):
+        c["data_warning"] = p["data_warning"]
     if full:
         c |= {"category": p["category"], "specs": p["specs"], "certificates": p["certificates"],
               "min_order_qty": p.get("min_order_qty", 1)}
@@ -24,7 +30,10 @@ class Toolbox:
     # --- каталог ---
     def search_products(self, query: str) -> dict:
         found = self.catalog.search(query)
-        return {"results": [_card(p) for p in found]} if found else {"results": [], "note": "Ничего не найдено"}
+        return {"results": [_card(p, full=True) for p in found],
+                "catalog_size": len(self.catalog.products),
+                "note": "Поиск по локальной выборке. Отсутствие результата не означает отсутствия на сайте."
+                        if found else "Точного совпадения в локальной выборке нет. Не повторяй тот же поиск; предложи уточнить артикул или обратиться к менеджеру."}
 
     def get_product(self, sku: str) -> dict:
         p = self.catalog.get(sku)
@@ -52,9 +61,12 @@ class Toolbox:
 
     def call(self, name: str, args_json: str) -> str:
         try:
+            if name not in {schema["function"]["name"] for schema in TOOL_SCHEMAS}:
+                raise ValueError("Unknown tool")
             result = getattr(self, name)(**json.loads(args_json or "{}"))
         except Exception as e:
-            result = {"error": f"{type(e).__name__}: {e}"}
+            logger.error("Tool %s failed (%s)", name, type(e).__name__)
+            result = {"error": f"Инструмент недоступен ({type(e).__name__}). Не делай вывод об отсутствии товара; предложи повторить позже или обратиться к менеджеру."}
         return json.dumps(result, ensure_ascii=False)
 
 

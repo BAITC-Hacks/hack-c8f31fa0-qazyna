@@ -1,0 +1,2284 @@
+[
+  {
+    "params": {},
+    "response": {
+      "page": 1,
+      "per_page": 20,
+      "count": 20,
+      "items": [
+        {
+          "id": 45357,
+          "name": "***LED STARK 30W 2400Lm d98x180 4000K IP20 MEGALIGHT (20)",
+          "article": "ярп4520",
+          "price": 1810,
+          "image": "https://ekt.kz/upload/iblock/c39/u58k0kbv7koy4uikpznyywf0i5h1my7e/led_stark_30w_2400lm_d98x180_4000k_ip20_megalight_20.jpg",
+          "url": "https://ekt.kz/catalog/spets_predlozhenie/aktsiya_megalight_polnyy_sklad_polnyy_bak/_led_stark_30w_2400lm_d98x180_4000k_ip20_megalight_20/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=45357",
+          "offers": []
+        },
+        {
+          "id": 25397,
+          "name": "007886 Диф.авт. 1p+N 16А (30мА) 411002 Legrand (1)!!!",
+          "article": "310100080_",
+          "price": 9430,
+          "image": null,
+          "url": "https://ekt.kz/catalog/spets_predlozhenie/differentsialnye_ustroystva_uzo_avdt_vd/007886_dif_avt_1p_n_16a_30ma_411002_legrand_1_/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=25397",
+          "offers": []
+        },
+        {
+          "id": 58379,
+          "name": "010-002 УПп 60/40.1.1 со стыковочными узлами и винтами",
+          "article": "030300435_",
+          "price": 53,
+          "image": "https://ekt.kz/upload/iblock/df5/j2h6n71ed0v5lrn9e0tko32p70s9i9mp/010_002_upp_60_40_1_1_so_stykovochnymi_uzlami_i_vintami.jpg",
+          "url": "https://ekt.kz/catalog/avtomatizatsiya/ustroystva_plavnogo_puska_iek_/010_002_upp_60_40_1_1_so_stykovochnymi_uzlami_i_vintami/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=58379",
+          "offers": []
+        },
+        {
+          "id": 58380,
+          "name": "010-005 УПрк 97/50.1.1",
+          "article": "030300438_",
+          "price": 199,
+          "image": "https://ekt.kz/upload/iblock/452/p7c0wmkvp2orswbiqrr7x7i3oj9g91te/010_005_uprk_97_50_1_1.jpg",
+          "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/korobki/raspredelitelnye_1/010_005_uprk_97_50_1_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=58380",
+          "offers": []
+        },
+        {
+          "id": 58412,
+          "name": "020-007 Коробка для полых стен с мет. лапками и крышкой УПрк 97/50.1.2. (КМ-206)",
+          "article": "030300329_",
+          "price": 293,
+          "image": "https://ekt.kz/upload/iblock/e6c/xvr6h6018pvtevvtawo09e3nxrynwkcu/020_007_korobka_dlya_polykh_sten_s_met_lapkami_i_kryshkoy_uprk_97_50_1_2_km_206.jpg",
+          "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/korobki/ustanovochnye_podrozetniki/020_007_korobka_dlya_polykh_sten_s_met_lapkami_i_kryshkoy_uprk_97_50_1_2_km_206/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=58412",
+          "offers": []
+        },
+        {
+          "id": 58368,
+          "name": "020-008 Коробка разв.107х107х53 г/к УПрк 110/45.2.2. (72 шт)",
+          "article": "030300044_",
+          "price": 414,
+          "image": "https://ekt.kz/upload/iblock/c41/rqm4qng5ho5yn5b9upprkr9mm3o5b17r/020_008_korobka_razv_107kh107kh53_g_k_uprk_110_45_2_2_72_sht.jpg",
+          "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/korobki/raspredelitelnye_1/020_008_korobka_razv_107kh107kh53_g_k_uprk_110_45_2_2_72_sht/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=58368",
+          "offers": []
+        },
+        {
+          "id": 58378,
+          "name": "020-108 Коробка распаячная для полых стен с пласт. Лапками и крышкой 110/50.2.2",
+          "article": "030300426_",
+          "price": 350,
+          "image": "https://ekt.kz/upload/iblock/f59/ibj4vzbol2318jo1ukilbozywunlsnal/020_108_korobka_raspayachnaya_dlya_polykh_sten_s_plast_lapkami_i_kryshkoy_110_50_2_2.jpg",
+          "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/korobki/raspredelitelnye_1/020_108_korobka_raspayachnaya_dlya_polykh_sten_s_plast_lapkami_i_kryshkoy_110_50_2_2/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=58378",
+          "offers": []
+        },
+        {
+          "id": 515279,
+          "name": "027004 АВ DRX125 MT 3ф 40А 10ka Legrand (1)",
+          "article": "200300273_",
+          "price": 26930,
+          "image": "https://ekt.kz/upload/iblock/592/ecrd69l3r236hyuttkj4lmnz1euly1a7/027004_av_drx125_mt_3f_40a_10ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx125_mt_10_250_a_legrand/027004_av_drx125_mt_3f_40a_10ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515279",
+          "offers": []
+        },
+        {
+          "id": 515280,
+          "name": "027005 АВ DRX125 MT 3ф 50А 10ka Legrand (1)",
+          "article": "200300274_",
+          "price": 26930,
+          "image": "https://ekt.kz/upload/iblock/e99/yqvedowbaop1fju39ky9pau7rmv6qj63/027005_av_drx125_mt_3f_50a_10ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx125_mt_10_250_a_legrand/027005_av_drx125_mt_3f_50a_10ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515280",
+          "offers": []
+        },
+        {
+          "id": 515278,
+          "name": "027008 АВ DRX125 MT 3ф 100А 10ka Legrand (1)",
+          "article": "200300272_",
+          "price": 29190,
+          "image": "https://ekt.kz/upload/iblock/dd5/m7bhmskgees6tmeh613tz5k3q10oldar/027008_av_drx125_mt_3f_100a_10ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx125_mt_10_250_a_legrand/027008_av_drx125_mt_3f_100a_10ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515278",
+          "offers": []
+        },
+        {
+          "id": 515282,
+          "name": "027022 АВ DRX125 MT 3ф 25А 20ka Legrand (1)",
+          "article": "200300276_",
+          "price": 29810,
+          "image": "https://ekt.kz/upload/iblock/076/0k32d23w57a0leyiunq6o8yltqfoynmw/027022_av_drx125_mt_3f_25a_20ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx125_mt_10_250_a_legrand/027022_av_drx125_mt_3f_25a_20ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515282",
+          "offers": []
+        },
+        {
+          "id": 515283,
+          "name": "027024 АВ DRX125 MT 3ф 40А 20ka Legrand (1)",
+          "article": "200300277_",
+          "price": 29810,
+          "image": "https://ekt.kz/upload/iblock/4ec/vurn6p0w0a2y95fktv0n66mrgjig0s08/027024_av_drx125_mt_3f_40a_20ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx125_mt_10_250_a_legrand/027024_av_drx125_mt_3f_40a_20ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515283",
+          "offers": []
+        },
+        {
+          "id": 515281,
+          "name": "027028 АВ DRX125 MT 3ф 100А 20ka Legrand (1)",
+          "article": "200300275_",
+          "price": 33130,
+          "image": "https://ekt.kz/upload/iblock/569/ys2rqxp1g7tpg7hxtuht2747ni73l53a/027028_av_drx125_mt_3f_10a_20ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx125_mt_10_250_a_legrand/027028_av_drx125_mt_3f_10a_20ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515281",
+          "offers": []
+        },
+        {
+          "id": 515290,
+          "name": "027100 АВ DRX250 MT 3ф 125А 18ka Legrand (1)",
+          "article": "200300284_",
+          "price": 64780,
+          "image": "https://ekt.kz/upload/iblock/053/vgn63u873t0vhpsub4zuzd6met8zgb91/027100_av_drx250_mt_3f_125a_18ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx250_mt_10_250_a_legrand/027100_av_drx250_mt_3f_125a_18ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515290",
+          "offers": []
+        },
+        {
+          "id": 515292,
+          "name": "027103 АВ DRX250 MT 3ф 200А 18ka Legrand (1)",
+          "article": "200300286_",
+          "price": 69880,
+          "image": "https://ekt.kz/upload/iblock/be3/e0ed5wa8ni54hge5z0fmtauhuzudpgx6/027103_av_drx250_mt_3f_200a_18ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx250_mt_10_250_a_legrand/027103_av_drx250_mt_3f_200a_18ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515292",
+          "offers": []
+        },
+        {
+          "id": 515286,
+          "name": "027105 АВ DRX250 MT 3ф 250А 18ka Legrand (1)",
+          "article": "200300280_",
+          "price": 69910,
+          "image": "https://ekt.kz/upload/iblock/75b/0w9qn9kumrcv9hqb7s6iegdf2g4b6cpw/027105_av_drx250_mt_3f_250a_18ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx250_mt_10_250_a_legrand/027105_av_drx250_mt_3f_250a_18ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515286",
+          "offers": []
+        },
+        {
+          "id": 515287,
+          "name": "027112 АВ DRX250 MT 3ф 125А 25ka Legrand (1)",
+          "article": "200300281_",
+          "price": 65450,
+          "image": "https://ekt.kz/upload/iblock/828/jx7tloq0z13y4ipsiqs83wuqry8t7xj3/027112_av_drx250_mt_3f_125a_25ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx250_mt_10_250_a_legrand/027112_av_drx250_mt_3f_125a_25ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515287",
+          "offers": []
+        },
+        {
+          "id": 515289,
+          "name": "027115 АВ DRX250 MT 3ф 200А 25ka Legrand (1)",
+          "article": "200300283_",
+          "price": 71160,
+          "image": "https://ekt.kz/upload/iblock/42d/gn2fvf89vn2tgkwzuiurcw99s9mgjbda/027115_av_drx250_mt_3f_200a_25ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx250_mt_10_250_a_legrand/027115_av_drx250_mt_3f_200a_25ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515289",
+          "offers": []
+        },
+        {
+          "id": 515293,
+          "name": "027117 АВ DRX250 MT 3ф 250А 25ka Legrand (1)",
+          "article": "200300287_",
+          "price": 76940,
+          "image": "https://ekt.kz/upload/iblock/9cd/utqxpur1mensee2kealvq68ta9kenbep/027117_av_drx250_mt_3f_250a_25ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx250_mt_10_250_a_legrand/027117_av_drx250_mt_3f_250a_25ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515293",
+          "offers": []
+        },
+        {
+          "id": 515285,
+          "name": "027220 АВ DRX125 MT 3ф 63А 20ka Legrand (1)",
+          "article": "200300279_",
+          "price": 31620,
+          "image": "https://ekt.kz/upload/iblock/ef5/utqen57lj3c7fjwfifxooatqtxcz3e2g/027220_av_drx125_mt_3f_63a_20ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx125_mt_10_250_a_legrand/027220_av_drx125_mt_3f_63a_20ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515285",
+          "offers": []
+        }
+      ]
+    }
+  },
+  {
+    "params": {
+      "search": "IEK"
+    },
+    "response": {
+      "page": 1,
+      "per_page": 20,
+      "count": 20,
+      "items": [
+        {
+          "id": 45357,
+          "name": "***LED STARK 30W 2400Lm d98x180 4000K IP20 MEGALIGHT (20)",
+          "article": "ярп4520",
+          "price": 1810,
+          "image": "https://ekt.kz/upload/iblock/c39/u58k0kbv7koy4uikpznyywf0i5h1my7e/led_stark_30w_2400lm_d98x180_4000k_ip20_megalight_20.jpg",
+          "url": "https://ekt.kz/catalog/spets_predlozhenie/aktsiya_megalight_polnyy_sklad_polnyy_bak/_led_stark_30w_2400lm_d98x180_4000k_ip20_megalight_20/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=45357",
+          "offers": []
+        },
+        {
+          "id": 25397,
+          "name": "007886 Диф.авт. 1p+N 16А (30мА) 411002 Legrand (1)!!!",
+          "article": "310100080_",
+          "price": 9430,
+          "image": null,
+          "url": "https://ekt.kz/catalog/spets_predlozhenie/differentsialnye_ustroystva_uzo_avdt_vd/007886_dif_avt_1p_n_16a_30ma_411002_legrand_1_/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=25397",
+          "offers": []
+        },
+        {
+          "id": 58379,
+          "name": "010-002 УПп 60/40.1.1 со стыковочными узлами и винтами",
+          "article": "030300435_",
+          "price": 53,
+          "image": "https://ekt.kz/upload/iblock/df5/j2h6n71ed0v5lrn9e0tko32p70s9i9mp/010_002_upp_60_40_1_1_so_stykovochnymi_uzlami_i_vintami.jpg",
+          "url": "https://ekt.kz/catalog/avtomatizatsiya/ustroystva_plavnogo_puska_iek_/010_002_upp_60_40_1_1_so_stykovochnymi_uzlami_i_vintami/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=58379",
+          "offers": []
+        },
+        {
+          "id": 58380,
+          "name": "010-005 УПрк 97/50.1.1",
+          "article": "030300438_",
+          "price": 199,
+          "image": "https://ekt.kz/upload/iblock/452/p7c0wmkvp2orswbiqrr7x7i3oj9g91te/010_005_uprk_97_50_1_1.jpg",
+          "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/korobki/raspredelitelnye_1/010_005_uprk_97_50_1_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=58380",
+          "offers": []
+        },
+        {
+          "id": 58412,
+          "name": "020-007 Коробка для полых стен с мет. лапками и крышкой УПрк 97/50.1.2. (КМ-206)",
+          "article": "030300329_",
+          "price": 293,
+          "image": "https://ekt.kz/upload/iblock/e6c/xvr6h6018pvtevvtawo09e3nxrynwkcu/020_007_korobka_dlya_polykh_sten_s_met_lapkami_i_kryshkoy_uprk_97_50_1_2_km_206.jpg",
+          "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/korobki/ustanovochnye_podrozetniki/020_007_korobka_dlya_polykh_sten_s_met_lapkami_i_kryshkoy_uprk_97_50_1_2_km_206/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=58412",
+          "offers": []
+        },
+        {
+          "id": 58368,
+          "name": "020-008 Коробка разв.107х107х53 г/к УПрк 110/45.2.2. (72 шт)",
+          "article": "030300044_",
+          "price": 414,
+          "image": "https://ekt.kz/upload/iblock/c41/rqm4qng5ho5yn5b9upprkr9mm3o5b17r/020_008_korobka_razv_107kh107kh53_g_k_uprk_110_45_2_2_72_sht.jpg",
+          "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/korobki/raspredelitelnye_1/020_008_korobka_razv_107kh107kh53_g_k_uprk_110_45_2_2_72_sht/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=58368",
+          "offers": []
+        },
+        {
+          "id": 58378,
+          "name": "020-108 Коробка распаячная для полых стен с пласт. Лапками и крышкой 110/50.2.2",
+          "article": "030300426_",
+          "price": 350,
+          "image": "https://ekt.kz/upload/iblock/f59/ibj4vzbol2318jo1ukilbozywunlsnal/020_108_korobka_raspayachnaya_dlya_polykh_sten_s_plast_lapkami_i_kryshkoy_110_50_2_2.jpg",
+          "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/korobki/raspredelitelnye_1/020_108_korobka_raspayachnaya_dlya_polykh_sten_s_plast_lapkami_i_kryshkoy_110_50_2_2/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=58378",
+          "offers": []
+        },
+        {
+          "id": 515279,
+          "name": "027004 АВ DRX125 MT 3ф 40А 10ka Legrand (1)",
+          "article": "200300273_",
+          "price": 26930,
+          "image": "https://ekt.kz/upload/iblock/592/ecrd69l3r236hyuttkj4lmnz1euly1a7/027004_av_drx125_mt_3f_40a_10ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx125_mt_10_250_a_legrand/027004_av_drx125_mt_3f_40a_10ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515279",
+          "offers": []
+        },
+        {
+          "id": 515280,
+          "name": "027005 АВ DRX125 MT 3ф 50А 10ka Legrand (1)",
+          "article": "200300274_",
+          "price": 26930,
+          "image": "https://ekt.kz/upload/iblock/e99/yqvedowbaop1fju39ky9pau7rmv6qj63/027005_av_drx125_mt_3f_50a_10ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx125_mt_10_250_a_legrand/027005_av_drx125_mt_3f_50a_10ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515280",
+          "offers": []
+        },
+        {
+          "id": 515278,
+          "name": "027008 АВ DRX125 MT 3ф 100А 10ka Legrand (1)",
+          "article": "200300272_",
+          "price": 29190,
+          "image": "https://ekt.kz/upload/iblock/dd5/m7bhmskgees6tmeh613tz5k3q10oldar/027008_av_drx125_mt_3f_100a_10ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx125_mt_10_250_a_legrand/027008_av_drx125_mt_3f_100a_10ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515278",
+          "offers": []
+        },
+        {
+          "id": 515282,
+          "name": "027022 АВ DRX125 MT 3ф 25А 20ka Legrand (1)",
+          "article": "200300276_",
+          "price": 29810,
+          "image": "https://ekt.kz/upload/iblock/076/0k32d23w57a0leyiunq6o8yltqfoynmw/027022_av_drx125_mt_3f_25a_20ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx125_mt_10_250_a_legrand/027022_av_drx125_mt_3f_25a_20ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515282",
+          "offers": []
+        },
+        {
+          "id": 515283,
+          "name": "027024 АВ DRX125 MT 3ф 40А 20ka Legrand (1)",
+          "article": "200300277_",
+          "price": 29810,
+          "image": "https://ekt.kz/upload/iblock/4ec/vurn6p0w0a2y95fktv0n66mrgjig0s08/027024_av_drx125_mt_3f_40a_20ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx125_mt_10_250_a_legrand/027024_av_drx125_mt_3f_40a_20ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515283",
+          "offers": []
+        },
+        {
+          "id": 515281,
+          "name": "027028 АВ DRX125 MT 3ф 100А 20ka Legrand (1)",
+          "article": "200300275_",
+          "price": 33130,
+          "image": "https://ekt.kz/upload/iblock/569/ys2rqxp1g7tpg7hxtuht2747ni73l53a/027028_av_drx125_mt_3f_10a_20ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx125_mt_10_250_a_legrand/027028_av_drx125_mt_3f_10a_20ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515281",
+          "offers": []
+        },
+        {
+          "id": 515290,
+          "name": "027100 АВ DRX250 MT 3ф 125А 18ka Legrand (1)",
+          "article": "200300284_",
+          "price": 64780,
+          "image": "https://ekt.kz/upload/iblock/053/vgn63u873t0vhpsub4zuzd6met8zgb91/027100_av_drx250_mt_3f_125a_18ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx250_mt_10_250_a_legrand/027100_av_drx250_mt_3f_125a_18ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515290",
+          "offers": []
+        },
+        {
+          "id": 515292,
+          "name": "027103 АВ DRX250 MT 3ф 200А 18ka Legrand (1)",
+          "article": "200300286_",
+          "price": 69880,
+          "image": "https://ekt.kz/upload/iblock/be3/e0ed5wa8ni54hge5z0fmtauhuzudpgx6/027103_av_drx250_mt_3f_200a_18ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx250_mt_10_250_a_legrand/027103_av_drx250_mt_3f_200a_18ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515292",
+          "offers": []
+        },
+        {
+          "id": 515286,
+          "name": "027105 АВ DRX250 MT 3ф 250А 18ka Legrand (1)",
+          "article": "200300280_",
+          "price": 69910,
+          "image": "https://ekt.kz/upload/iblock/75b/0w9qn9kumrcv9hqb7s6iegdf2g4b6cpw/027105_av_drx250_mt_3f_250a_18ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx250_mt_10_250_a_legrand/027105_av_drx250_mt_3f_250a_18ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515286",
+          "offers": []
+        },
+        {
+          "id": 515287,
+          "name": "027112 АВ DRX250 MT 3ф 125А 25ka Legrand (1)",
+          "article": "200300281_",
+          "price": 65450,
+          "image": "https://ekt.kz/upload/iblock/828/jx7tloq0z13y4ipsiqs83wuqry8t7xj3/027112_av_drx250_mt_3f_125a_25ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx250_mt_10_250_a_legrand/027112_av_drx250_mt_3f_125a_25ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515287",
+          "offers": []
+        },
+        {
+          "id": 515289,
+          "name": "027115 АВ DRX250 MT 3ф 200А 25ka Legrand (1)",
+          "article": "200300283_",
+          "price": 71160,
+          "image": "https://ekt.kz/upload/iblock/42d/gn2fvf89vn2tgkwzuiurcw99s9mgjbda/027115_av_drx250_mt_3f_200a_25ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx250_mt_10_250_a_legrand/027115_av_drx250_mt_3f_200a_25ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515289",
+          "offers": []
+        },
+        {
+          "id": 515293,
+          "name": "027117 АВ DRX250 MT 3ф 250А 25ka Legrand (1)",
+          "article": "200300287_",
+          "price": 76940,
+          "image": "https://ekt.kz/upload/iblock/9cd/utqxpur1mensee2kealvq68ta9kenbep/027117_av_drx250_mt_3f_250a_25ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx250_mt_10_250_a_legrand/027117_av_drx250_mt_3f_250a_25ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515293",
+          "offers": []
+        },
+        {
+          "id": 515285,
+          "name": "027220 АВ DRX125 MT 3ф 63А 20ka Legrand (1)",
+          "article": "200300279_",
+          "price": 31620,
+          "image": "https://ekt.kz/upload/iblock/ef5/utqen57lj3c7fjwfifxooatqtxcz3e2g/027220_av_drx125_mt_3f_63a_20ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx125_mt_10_250_a_legrand/027220_av_drx125_mt_3f_63a_20ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515285",
+          "offers": []
+        }
+      ]
+    }
+  },
+  {
+    "params": {
+      "q": "УЗО"
+    },
+    "response": {
+      "page": 1,
+      "per_page": 20,
+      "count": 20,
+      "items": [
+        {
+          "id": 45357,
+          "name": "***LED STARK 30W 2400Lm d98x180 4000K IP20 MEGALIGHT (20)",
+          "article": "ярп4520",
+          "price": 1810,
+          "image": "https://ekt.kz/upload/iblock/c39/u58k0kbv7koy4uikpznyywf0i5h1my7e/led_stark_30w_2400lm_d98x180_4000k_ip20_megalight_20.jpg",
+          "url": "https://ekt.kz/catalog/spets_predlozhenie/aktsiya_megalight_polnyy_sklad_polnyy_bak/_led_stark_30w_2400lm_d98x180_4000k_ip20_megalight_20/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=45357",
+          "offers": []
+        },
+        {
+          "id": 25397,
+          "name": "007886 Диф.авт. 1p+N 16А (30мА) 411002 Legrand (1)!!!",
+          "article": "310100080_",
+          "price": 9430,
+          "image": null,
+          "url": "https://ekt.kz/catalog/spets_predlozhenie/differentsialnye_ustroystva_uzo_avdt_vd/007886_dif_avt_1p_n_16a_30ma_411002_legrand_1_/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=25397",
+          "offers": []
+        },
+        {
+          "id": 58379,
+          "name": "010-002 УПп 60/40.1.1 со стыковочными узлами и винтами",
+          "article": "030300435_",
+          "price": 53,
+          "image": "https://ekt.kz/upload/iblock/df5/j2h6n71ed0v5lrn9e0tko32p70s9i9mp/010_002_upp_60_40_1_1_so_stykovochnymi_uzlami_i_vintami.jpg",
+          "url": "https://ekt.kz/catalog/avtomatizatsiya/ustroystva_plavnogo_puska_iek_/010_002_upp_60_40_1_1_so_stykovochnymi_uzlami_i_vintami/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=58379",
+          "offers": []
+        },
+        {
+          "id": 58380,
+          "name": "010-005 УПрк 97/50.1.1",
+          "article": "030300438_",
+          "price": 199,
+          "image": "https://ekt.kz/upload/iblock/452/p7c0wmkvp2orswbiqrr7x7i3oj9g91te/010_005_uprk_97_50_1_1.jpg",
+          "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/korobki/raspredelitelnye_1/010_005_uprk_97_50_1_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=58380",
+          "offers": []
+        },
+        {
+          "id": 58412,
+          "name": "020-007 Коробка для полых стен с мет. лапками и крышкой УПрк 97/50.1.2. (КМ-206)",
+          "article": "030300329_",
+          "price": 293,
+          "image": "https://ekt.kz/upload/iblock/e6c/xvr6h6018pvtevvtawo09e3nxrynwkcu/020_007_korobka_dlya_polykh_sten_s_met_lapkami_i_kryshkoy_uprk_97_50_1_2_km_206.jpg",
+          "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/korobki/ustanovochnye_podrozetniki/020_007_korobka_dlya_polykh_sten_s_met_lapkami_i_kryshkoy_uprk_97_50_1_2_km_206/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=58412",
+          "offers": []
+        },
+        {
+          "id": 58368,
+          "name": "020-008 Коробка разв.107х107х53 г/к УПрк 110/45.2.2. (72 шт)",
+          "article": "030300044_",
+          "price": 414,
+          "image": "https://ekt.kz/upload/iblock/c41/rqm4qng5ho5yn5b9upprkr9mm3o5b17r/020_008_korobka_razv_107kh107kh53_g_k_uprk_110_45_2_2_72_sht.jpg",
+          "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/korobki/raspredelitelnye_1/020_008_korobka_razv_107kh107kh53_g_k_uprk_110_45_2_2_72_sht/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=58368",
+          "offers": []
+        },
+        {
+          "id": 58378,
+          "name": "020-108 Коробка распаячная для полых стен с пласт. Лапками и крышкой 110/50.2.2",
+          "article": "030300426_",
+          "price": 350,
+          "image": "https://ekt.kz/upload/iblock/f59/ibj4vzbol2318jo1ukilbozywunlsnal/020_108_korobka_raspayachnaya_dlya_polykh_sten_s_plast_lapkami_i_kryshkoy_110_50_2_2.jpg",
+          "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/korobki/raspredelitelnye_1/020_108_korobka_raspayachnaya_dlya_polykh_sten_s_plast_lapkami_i_kryshkoy_110_50_2_2/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=58378",
+          "offers": []
+        },
+        {
+          "id": 515279,
+          "name": "027004 АВ DRX125 MT 3ф 40А 10ka Legrand (1)",
+          "article": "200300273_",
+          "price": 26930,
+          "image": "https://ekt.kz/upload/iblock/592/ecrd69l3r236hyuttkj4lmnz1euly1a7/027004_av_drx125_mt_3f_40a_10ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx125_mt_10_250_a_legrand/027004_av_drx125_mt_3f_40a_10ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515279",
+          "offers": []
+        },
+        {
+          "id": 515280,
+          "name": "027005 АВ DRX125 MT 3ф 50А 10ka Legrand (1)",
+          "article": "200300274_",
+          "price": 26930,
+          "image": "https://ekt.kz/upload/iblock/e99/yqvedowbaop1fju39ky9pau7rmv6qj63/027005_av_drx125_mt_3f_50a_10ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx125_mt_10_250_a_legrand/027005_av_drx125_mt_3f_50a_10ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515280",
+          "offers": []
+        },
+        {
+          "id": 515278,
+          "name": "027008 АВ DRX125 MT 3ф 100А 10ka Legrand (1)",
+          "article": "200300272_",
+          "price": 29190,
+          "image": "https://ekt.kz/upload/iblock/dd5/m7bhmskgees6tmeh613tz5k3q10oldar/027008_av_drx125_mt_3f_100a_10ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx125_mt_10_250_a_legrand/027008_av_drx125_mt_3f_100a_10ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515278",
+          "offers": []
+        },
+        {
+          "id": 515282,
+          "name": "027022 АВ DRX125 MT 3ф 25А 20ka Legrand (1)",
+          "article": "200300276_",
+          "price": 29810,
+          "image": "https://ekt.kz/upload/iblock/076/0k32d23w57a0leyiunq6o8yltqfoynmw/027022_av_drx125_mt_3f_25a_20ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx125_mt_10_250_a_legrand/027022_av_drx125_mt_3f_25a_20ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515282",
+          "offers": []
+        },
+        {
+          "id": 515283,
+          "name": "027024 АВ DRX125 MT 3ф 40А 20ka Legrand (1)",
+          "article": "200300277_",
+          "price": 29810,
+          "image": "https://ekt.kz/upload/iblock/4ec/vurn6p0w0a2y95fktv0n66mrgjig0s08/027024_av_drx125_mt_3f_40a_20ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx125_mt_10_250_a_legrand/027024_av_drx125_mt_3f_40a_20ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515283",
+          "offers": []
+        },
+        {
+          "id": 515281,
+          "name": "027028 АВ DRX125 MT 3ф 100А 20ka Legrand (1)",
+          "article": "200300275_",
+          "price": 33130,
+          "image": "https://ekt.kz/upload/iblock/569/ys2rqxp1g7tpg7hxtuht2747ni73l53a/027028_av_drx125_mt_3f_10a_20ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx125_mt_10_250_a_legrand/027028_av_drx125_mt_3f_10a_20ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515281",
+          "offers": []
+        },
+        {
+          "id": 515290,
+          "name": "027100 АВ DRX250 MT 3ф 125А 18ka Legrand (1)",
+          "article": "200300284_",
+          "price": 64780,
+          "image": "https://ekt.kz/upload/iblock/053/vgn63u873t0vhpsub4zuzd6met8zgb91/027100_av_drx250_mt_3f_125a_18ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx250_mt_10_250_a_legrand/027100_av_drx250_mt_3f_125a_18ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515290",
+          "offers": []
+        },
+        {
+          "id": 515292,
+          "name": "027103 АВ DRX250 MT 3ф 200А 18ka Legrand (1)",
+          "article": "200300286_",
+          "price": 69880,
+          "image": "https://ekt.kz/upload/iblock/be3/e0ed5wa8ni54hge5z0fmtauhuzudpgx6/027103_av_drx250_mt_3f_200a_18ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx250_mt_10_250_a_legrand/027103_av_drx250_mt_3f_200a_18ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515292",
+          "offers": []
+        },
+        {
+          "id": 515286,
+          "name": "027105 АВ DRX250 MT 3ф 250А 18ka Legrand (1)",
+          "article": "200300280_",
+          "price": 69910,
+          "image": "https://ekt.kz/upload/iblock/75b/0w9qn9kumrcv9hqb7s6iegdf2g4b6cpw/027105_av_drx250_mt_3f_250a_18ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx250_mt_10_250_a_legrand/027105_av_drx250_mt_3f_250a_18ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515286",
+          "offers": []
+        },
+        {
+          "id": 515287,
+          "name": "027112 АВ DRX250 MT 3ф 125А 25ka Legrand (1)",
+          "article": "200300281_",
+          "price": 65450,
+          "image": "https://ekt.kz/upload/iblock/828/jx7tloq0z13y4ipsiqs83wuqry8t7xj3/027112_av_drx250_mt_3f_125a_25ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx250_mt_10_250_a_legrand/027112_av_drx250_mt_3f_125a_25ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515287",
+          "offers": []
+        },
+        {
+          "id": 515289,
+          "name": "027115 АВ DRX250 MT 3ф 200А 25ka Legrand (1)",
+          "article": "200300283_",
+          "price": 71160,
+          "image": "https://ekt.kz/upload/iblock/42d/gn2fvf89vn2tgkwzuiurcw99s9mgjbda/027115_av_drx250_mt_3f_200a_25ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx250_mt_10_250_a_legrand/027115_av_drx250_mt_3f_200a_25ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515289",
+          "offers": []
+        },
+        {
+          "id": 515293,
+          "name": "027117 АВ DRX250 MT 3ф 250А 25ka Legrand (1)",
+          "article": "200300287_",
+          "price": 76940,
+          "image": "https://ekt.kz/upload/iblock/9cd/utqxpur1mensee2kealvq68ta9kenbep/027117_av_drx250_mt_3f_250a_25ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx250_mt_10_250_a_legrand/027117_av_drx250_mt_3f_250a_25ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515293",
+          "offers": []
+        },
+        {
+          "id": 515285,
+          "name": "027220 АВ DRX125 MT 3ф 63А 20ka Legrand (1)",
+          "article": "200300279_",
+          "price": 31620,
+          "image": "https://ekt.kz/upload/iblock/ef5/utqen57lj3c7fjwfifxooatqtxcz3e2g/027220_av_drx125_mt_3f_63a_20ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx125_mt_10_250_a_legrand/027220_av_drx125_mt_3f_63a_20ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515285",
+          "offers": []
+        }
+      ]
+    }
+  },
+  {
+    "params": {
+      "filter[name]": "кабель"
+    },
+    "response": {
+      "page": 1,
+      "per_page": 20,
+      "count": 20,
+      "items": [
+        {
+          "id": 45357,
+          "name": "***LED STARK 30W 2400Lm d98x180 4000K IP20 MEGALIGHT (20)",
+          "article": "ярп4520",
+          "price": 1810,
+          "image": "https://ekt.kz/upload/iblock/c39/u58k0kbv7koy4uikpznyywf0i5h1my7e/led_stark_30w_2400lm_d98x180_4000k_ip20_megalight_20.jpg",
+          "url": "https://ekt.kz/catalog/spets_predlozhenie/aktsiya_megalight_polnyy_sklad_polnyy_bak/_led_stark_30w_2400lm_d98x180_4000k_ip20_megalight_20/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=45357",
+          "offers": []
+        },
+        {
+          "id": 25397,
+          "name": "007886 Диф.авт. 1p+N 16А (30мА) 411002 Legrand (1)!!!",
+          "article": "310100080_",
+          "price": 9430,
+          "image": null,
+          "url": "https://ekt.kz/catalog/spets_predlozhenie/differentsialnye_ustroystva_uzo_avdt_vd/007886_dif_avt_1p_n_16a_30ma_411002_legrand_1_/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=25397",
+          "offers": []
+        },
+        {
+          "id": 58379,
+          "name": "010-002 УПп 60/40.1.1 со стыковочными узлами и винтами",
+          "article": "030300435_",
+          "price": 53,
+          "image": "https://ekt.kz/upload/iblock/df5/j2h6n71ed0v5lrn9e0tko32p70s9i9mp/010_002_upp_60_40_1_1_so_stykovochnymi_uzlami_i_vintami.jpg",
+          "url": "https://ekt.kz/catalog/avtomatizatsiya/ustroystva_plavnogo_puska_iek_/010_002_upp_60_40_1_1_so_stykovochnymi_uzlami_i_vintami/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=58379",
+          "offers": []
+        },
+        {
+          "id": 58380,
+          "name": "010-005 УПрк 97/50.1.1",
+          "article": "030300438_",
+          "price": 199,
+          "image": "https://ekt.kz/upload/iblock/452/p7c0wmkvp2orswbiqrr7x7i3oj9g91te/010_005_uprk_97_50_1_1.jpg",
+          "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/korobki/raspredelitelnye_1/010_005_uprk_97_50_1_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=58380",
+          "offers": []
+        },
+        {
+          "id": 58412,
+          "name": "020-007 Коробка для полых стен с мет. лапками и крышкой УПрк 97/50.1.2. (КМ-206)",
+          "article": "030300329_",
+          "price": 293,
+          "image": "https://ekt.kz/upload/iblock/e6c/xvr6h6018pvtevvtawo09e3nxrynwkcu/020_007_korobka_dlya_polykh_sten_s_met_lapkami_i_kryshkoy_uprk_97_50_1_2_km_206.jpg",
+          "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/korobki/ustanovochnye_podrozetniki/020_007_korobka_dlya_polykh_sten_s_met_lapkami_i_kryshkoy_uprk_97_50_1_2_km_206/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=58412",
+          "offers": []
+        },
+        {
+          "id": 58368,
+          "name": "020-008 Коробка разв.107х107х53 г/к УПрк 110/45.2.2. (72 шт)",
+          "article": "030300044_",
+          "price": 414,
+          "image": "https://ekt.kz/upload/iblock/c41/rqm4qng5ho5yn5b9upprkr9mm3o5b17r/020_008_korobka_razv_107kh107kh53_g_k_uprk_110_45_2_2_72_sht.jpg",
+          "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/korobki/raspredelitelnye_1/020_008_korobka_razv_107kh107kh53_g_k_uprk_110_45_2_2_72_sht/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=58368",
+          "offers": []
+        },
+        {
+          "id": 58378,
+          "name": "020-108 Коробка распаячная для полых стен с пласт. Лапками и крышкой 110/50.2.2",
+          "article": "030300426_",
+          "price": 350,
+          "image": "https://ekt.kz/upload/iblock/f59/ibj4vzbol2318jo1ukilbozywunlsnal/020_108_korobka_raspayachnaya_dlya_polykh_sten_s_plast_lapkami_i_kryshkoy_110_50_2_2.jpg",
+          "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/korobki/raspredelitelnye_1/020_108_korobka_raspayachnaya_dlya_polykh_sten_s_plast_lapkami_i_kryshkoy_110_50_2_2/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=58378",
+          "offers": []
+        },
+        {
+          "id": 515279,
+          "name": "027004 АВ DRX125 MT 3ф 40А 10ka Legrand (1)",
+          "article": "200300273_",
+          "price": 26930,
+          "image": "https://ekt.kz/upload/iblock/592/ecrd69l3r236hyuttkj4lmnz1euly1a7/027004_av_drx125_mt_3f_40a_10ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx125_mt_10_250_a_legrand/027004_av_drx125_mt_3f_40a_10ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515279",
+          "offers": []
+        },
+        {
+          "id": 515280,
+          "name": "027005 АВ DRX125 MT 3ф 50А 10ka Legrand (1)",
+          "article": "200300274_",
+          "price": 26930,
+          "image": "https://ekt.kz/upload/iblock/e99/yqvedowbaop1fju39ky9pau7rmv6qj63/027005_av_drx125_mt_3f_50a_10ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx125_mt_10_250_a_legrand/027005_av_drx125_mt_3f_50a_10ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515280",
+          "offers": []
+        },
+        {
+          "id": 515278,
+          "name": "027008 АВ DRX125 MT 3ф 100А 10ka Legrand (1)",
+          "article": "200300272_",
+          "price": 29190,
+          "image": "https://ekt.kz/upload/iblock/dd5/m7bhmskgees6tmeh613tz5k3q10oldar/027008_av_drx125_mt_3f_100a_10ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx125_mt_10_250_a_legrand/027008_av_drx125_mt_3f_100a_10ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515278",
+          "offers": []
+        },
+        {
+          "id": 515282,
+          "name": "027022 АВ DRX125 MT 3ф 25А 20ka Legrand (1)",
+          "article": "200300276_",
+          "price": 29810,
+          "image": "https://ekt.kz/upload/iblock/076/0k32d23w57a0leyiunq6o8yltqfoynmw/027022_av_drx125_mt_3f_25a_20ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx125_mt_10_250_a_legrand/027022_av_drx125_mt_3f_25a_20ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515282",
+          "offers": []
+        },
+        {
+          "id": 515283,
+          "name": "027024 АВ DRX125 MT 3ф 40А 20ka Legrand (1)",
+          "article": "200300277_",
+          "price": 29810,
+          "image": "https://ekt.kz/upload/iblock/4ec/vurn6p0w0a2y95fktv0n66mrgjig0s08/027024_av_drx125_mt_3f_40a_20ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx125_mt_10_250_a_legrand/027024_av_drx125_mt_3f_40a_20ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515283",
+          "offers": []
+        },
+        {
+          "id": 515281,
+          "name": "027028 АВ DRX125 MT 3ф 100А 20ka Legrand (1)",
+          "article": "200300275_",
+          "price": 33130,
+          "image": "https://ekt.kz/upload/iblock/569/ys2rqxp1g7tpg7hxtuht2747ni73l53a/027028_av_drx125_mt_3f_10a_20ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx125_mt_10_250_a_legrand/027028_av_drx125_mt_3f_10a_20ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515281",
+          "offers": []
+        },
+        {
+          "id": 515290,
+          "name": "027100 АВ DRX250 MT 3ф 125А 18ka Legrand (1)",
+          "article": "200300284_",
+          "price": 64780,
+          "image": "https://ekt.kz/upload/iblock/053/vgn63u873t0vhpsub4zuzd6met8zgb91/027100_av_drx250_mt_3f_125a_18ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx250_mt_10_250_a_legrand/027100_av_drx250_mt_3f_125a_18ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515290",
+          "offers": []
+        },
+        {
+          "id": 515292,
+          "name": "027103 АВ DRX250 MT 3ф 200А 18ka Legrand (1)",
+          "article": "200300286_",
+          "price": 69880,
+          "image": "https://ekt.kz/upload/iblock/be3/e0ed5wa8ni54hge5z0fmtauhuzudpgx6/027103_av_drx250_mt_3f_200a_18ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx250_mt_10_250_a_legrand/027103_av_drx250_mt_3f_200a_18ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515292",
+          "offers": []
+        },
+        {
+          "id": 515286,
+          "name": "027105 АВ DRX250 MT 3ф 250А 18ka Legrand (1)",
+          "article": "200300280_",
+          "price": 69910,
+          "image": "https://ekt.kz/upload/iblock/75b/0w9qn9kumrcv9hqb7s6iegdf2g4b6cpw/027105_av_drx250_mt_3f_250a_18ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx250_mt_10_250_a_legrand/027105_av_drx250_mt_3f_250a_18ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515286",
+          "offers": []
+        },
+        {
+          "id": 515287,
+          "name": "027112 АВ DRX250 MT 3ф 125А 25ka Legrand (1)",
+          "article": "200300281_",
+          "price": 65450,
+          "image": "https://ekt.kz/upload/iblock/828/jx7tloq0z13y4ipsiqs83wuqry8t7xj3/027112_av_drx250_mt_3f_125a_25ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx250_mt_10_250_a_legrand/027112_av_drx250_mt_3f_125a_25ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515287",
+          "offers": []
+        },
+        {
+          "id": 515289,
+          "name": "027115 АВ DRX250 MT 3ф 200А 25ka Legrand (1)",
+          "article": "200300283_",
+          "price": 71160,
+          "image": "https://ekt.kz/upload/iblock/42d/gn2fvf89vn2tgkwzuiurcw99s9mgjbda/027115_av_drx250_mt_3f_200a_25ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx250_mt_10_250_a_legrand/027115_av_drx250_mt_3f_200a_25ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515289",
+          "offers": []
+        },
+        {
+          "id": 515293,
+          "name": "027117 АВ DRX250 MT 3ф 250А 25ka Legrand (1)",
+          "article": "200300287_",
+          "price": 76940,
+          "image": "https://ekt.kz/upload/iblock/9cd/utqxpur1mensee2kealvq68ta9kenbep/027117_av_drx250_mt_3f_250a_25ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx250_mt_10_250_a_legrand/027117_av_drx250_mt_3f_250a_25ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515293",
+          "offers": []
+        },
+        {
+          "id": 515285,
+          "name": "027220 АВ DRX125 MT 3ф 63А 20ka Legrand (1)",
+          "article": "200300279_",
+          "price": 31620,
+          "image": "https://ekt.kz/upload/iblock/ef5/utqen57lj3c7fjwfifxooatqtxcz3e2g/027220_av_drx125_mt_3f_63a_20ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx125_mt_10_250_a_legrand/027220_av_drx125_mt_3f_63a_20ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515285",
+          "offers": []
+        }
+      ]
+    }
+  },
+  {
+    "params": {
+      "category": "rozetki"
+    },
+    "response": {
+      "page": 1,
+      "per_page": 20,
+      "count": 20,
+      "items": [
+        {
+          "id": 45357,
+          "name": "***LED STARK 30W 2400Lm d98x180 4000K IP20 MEGALIGHT (20)",
+          "article": "ярп4520",
+          "price": 1810,
+          "image": "https://ekt.kz/upload/iblock/c39/u58k0kbv7koy4uikpznyywf0i5h1my7e/led_stark_30w_2400lm_d98x180_4000k_ip20_megalight_20.jpg",
+          "url": "https://ekt.kz/catalog/spets_predlozhenie/aktsiya_megalight_polnyy_sklad_polnyy_bak/_led_stark_30w_2400lm_d98x180_4000k_ip20_megalight_20/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=45357",
+          "offers": []
+        },
+        {
+          "id": 25397,
+          "name": "007886 Диф.авт. 1p+N 16А (30мА) 411002 Legrand (1)!!!",
+          "article": "310100080_",
+          "price": 9430,
+          "image": null,
+          "url": "https://ekt.kz/catalog/spets_predlozhenie/differentsialnye_ustroystva_uzo_avdt_vd/007886_dif_avt_1p_n_16a_30ma_411002_legrand_1_/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=25397",
+          "offers": []
+        },
+        {
+          "id": 58379,
+          "name": "010-002 УПп 60/40.1.1 со стыковочными узлами и винтами",
+          "article": "030300435_",
+          "price": 53,
+          "image": "https://ekt.kz/upload/iblock/df5/j2h6n71ed0v5lrn9e0tko32p70s9i9mp/010_002_upp_60_40_1_1_so_stykovochnymi_uzlami_i_vintami.jpg",
+          "url": "https://ekt.kz/catalog/avtomatizatsiya/ustroystva_plavnogo_puska_iek_/010_002_upp_60_40_1_1_so_stykovochnymi_uzlami_i_vintami/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=58379",
+          "offers": []
+        },
+        {
+          "id": 58380,
+          "name": "010-005 УПрк 97/50.1.1",
+          "article": "030300438_",
+          "price": 199,
+          "image": "https://ekt.kz/upload/iblock/452/p7c0wmkvp2orswbiqrr7x7i3oj9g91te/010_005_uprk_97_50_1_1.jpg",
+          "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/korobki/raspredelitelnye_1/010_005_uprk_97_50_1_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=58380",
+          "offers": []
+        },
+        {
+          "id": 58412,
+          "name": "020-007 Коробка для полых стен с мет. лапками и крышкой УПрк 97/50.1.2. (КМ-206)",
+          "article": "030300329_",
+          "price": 293,
+          "image": "https://ekt.kz/upload/iblock/e6c/xvr6h6018pvtevvtawo09e3nxrynwkcu/020_007_korobka_dlya_polykh_sten_s_met_lapkami_i_kryshkoy_uprk_97_50_1_2_km_206.jpg",
+          "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/korobki/ustanovochnye_podrozetniki/020_007_korobka_dlya_polykh_sten_s_met_lapkami_i_kryshkoy_uprk_97_50_1_2_km_206/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=58412",
+          "offers": []
+        },
+        {
+          "id": 58368,
+          "name": "020-008 Коробка разв.107х107х53 г/к УПрк 110/45.2.2. (72 шт)",
+          "article": "030300044_",
+          "price": 414,
+          "image": "https://ekt.kz/upload/iblock/c41/rqm4qng5ho5yn5b9upprkr9mm3o5b17r/020_008_korobka_razv_107kh107kh53_g_k_uprk_110_45_2_2_72_sht.jpg",
+          "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/korobki/raspredelitelnye_1/020_008_korobka_razv_107kh107kh53_g_k_uprk_110_45_2_2_72_sht/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=58368",
+          "offers": []
+        },
+        {
+          "id": 58378,
+          "name": "020-108 Коробка распаячная для полых стен с пласт. Лапками и крышкой 110/50.2.2",
+          "article": "030300426_",
+          "price": 350,
+          "image": "https://ekt.kz/upload/iblock/f59/ibj4vzbol2318jo1ukilbozywunlsnal/020_108_korobka_raspayachnaya_dlya_polykh_sten_s_plast_lapkami_i_kryshkoy_110_50_2_2.jpg",
+          "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/korobki/raspredelitelnye_1/020_108_korobka_raspayachnaya_dlya_polykh_sten_s_plast_lapkami_i_kryshkoy_110_50_2_2/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=58378",
+          "offers": []
+        },
+        {
+          "id": 515279,
+          "name": "027004 АВ DRX125 MT 3ф 40А 10ka Legrand (1)",
+          "article": "200300273_",
+          "price": 26930,
+          "image": "https://ekt.kz/upload/iblock/592/ecrd69l3r236hyuttkj4lmnz1euly1a7/027004_av_drx125_mt_3f_40a_10ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx125_mt_10_250_a_legrand/027004_av_drx125_mt_3f_40a_10ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515279",
+          "offers": []
+        },
+        {
+          "id": 515280,
+          "name": "027005 АВ DRX125 MT 3ф 50А 10ka Legrand (1)",
+          "article": "200300274_",
+          "price": 26930,
+          "image": "https://ekt.kz/upload/iblock/e99/yqvedowbaop1fju39ky9pau7rmv6qj63/027005_av_drx125_mt_3f_50a_10ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx125_mt_10_250_a_legrand/027005_av_drx125_mt_3f_50a_10ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515280",
+          "offers": []
+        },
+        {
+          "id": 515278,
+          "name": "027008 АВ DRX125 MT 3ф 100А 10ka Legrand (1)",
+          "article": "200300272_",
+          "price": 29190,
+          "image": "https://ekt.kz/upload/iblock/dd5/m7bhmskgees6tmeh613tz5k3q10oldar/027008_av_drx125_mt_3f_100a_10ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx125_mt_10_250_a_legrand/027008_av_drx125_mt_3f_100a_10ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515278",
+          "offers": []
+        },
+        {
+          "id": 515282,
+          "name": "027022 АВ DRX125 MT 3ф 25А 20ka Legrand (1)",
+          "article": "200300276_",
+          "price": 29810,
+          "image": "https://ekt.kz/upload/iblock/076/0k32d23w57a0leyiunq6o8yltqfoynmw/027022_av_drx125_mt_3f_25a_20ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx125_mt_10_250_a_legrand/027022_av_drx125_mt_3f_25a_20ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515282",
+          "offers": []
+        },
+        {
+          "id": 515283,
+          "name": "027024 АВ DRX125 MT 3ф 40А 20ka Legrand (1)",
+          "article": "200300277_",
+          "price": 29810,
+          "image": "https://ekt.kz/upload/iblock/4ec/vurn6p0w0a2y95fktv0n66mrgjig0s08/027024_av_drx125_mt_3f_40a_20ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx125_mt_10_250_a_legrand/027024_av_drx125_mt_3f_40a_20ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515283",
+          "offers": []
+        },
+        {
+          "id": 515281,
+          "name": "027028 АВ DRX125 MT 3ф 100А 20ka Legrand (1)",
+          "article": "200300275_",
+          "price": 33130,
+          "image": "https://ekt.kz/upload/iblock/569/ys2rqxp1g7tpg7hxtuht2747ni73l53a/027028_av_drx125_mt_3f_10a_20ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx125_mt_10_250_a_legrand/027028_av_drx125_mt_3f_10a_20ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515281",
+          "offers": []
+        },
+        {
+          "id": 515290,
+          "name": "027100 АВ DRX250 MT 3ф 125А 18ka Legrand (1)",
+          "article": "200300284_",
+          "price": 64780,
+          "image": "https://ekt.kz/upload/iblock/053/vgn63u873t0vhpsub4zuzd6met8zgb91/027100_av_drx250_mt_3f_125a_18ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx250_mt_10_250_a_legrand/027100_av_drx250_mt_3f_125a_18ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515290",
+          "offers": []
+        },
+        {
+          "id": 515292,
+          "name": "027103 АВ DRX250 MT 3ф 200А 18ka Legrand (1)",
+          "article": "200300286_",
+          "price": 69880,
+          "image": "https://ekt.kz/upload/iblock/be3/e0ed5wa8ni54hge5z0fmtauhuzudpgx6/027103_av_drx250_mt_3f_200a_18ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx250_mt_10_250_a_legrand/027103_av_drx250_mt_3f_200a_18ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515292",
+          "offers": []
+        },
+        {
+          "id": 515286,
+          "name": "027105 АВ DRX250 MT 3ф 250А 18ka Legrand (1)",
+          "article": "200300280_",
+          "price": 69910,
+          "image": "https://ekt.kz/upload/iblock/75b/0w9qn9kumrcv9hqb7s6iegdf2g4b6cpw/027105_av_drx250_mt_3f_250a_18ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx250_mt_10_250_a_legrand/027105_av_drx250_mt_3f_250a_18ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515286",
+          "offers": []
+        },
+        {
+          "id": 515287,
+          "name": "027112 АВ DRX250 MT 3ф 125А 25ka Legrand (1)",
+          "article": "200300281_",
+          "price": 65450,
+          "image": "https://ekt.kz/upload/iblock/828/jx7tloq0z13y4ipsiqs83wuqry8t7xj3/027112_av_drx250_mt_3f_125a_25ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx250_mt_10_250_a_legrand/027112_av_drx250_mt_3f_125a_25ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515287",
+          "offers": []
+        },
+        {
+          "id": 515289,
+          "name": "027115 АВ DRX250 MT 3ф 200А 25ka Legrand (1)",
+          "article": "200300283_",
+          "price": 71160,
+          "image": "https://ekt.kz/upload/iblock/42d/gn2fvf89vn2tgkwzuiurcw99s9mgjbda/027115_av_drx250_mt_3f_200a_25ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx250_mt_10_250_a_legrand/027115_av_drx250_mt_3f_200a_25ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515289",
+          "offers": []
+        },
+        {
+          "id": 515293,
+          "name": "027117 АВ DRX250 MT 3ф 250А 25ka Legrand (1)",
+          "article": "200300287_",
+          "price": 76940,
+          "image": "https://ekt.kz/upload/iblock/9cd/utqxpur1mensee2kealvq68ta9kenbep/027117_av_drx250_mt_3f_250a_25ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx250_mt_10_250_a_legrand/027117_av_drx250_mt_3f_250a_25ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515293",
+          "offers": []
+        },
+        {
+          "id": 515285,
+          "name": "027220 АВ DRX125 MT 3ф 63А 20ka Legrand (1)",
+          "article": "200300279_",
+          "price": 31620,
+          "image": "https://ekt.kz/upload/iblock/ef5/utqen57lj3c7fjwfifxooatqtxcz3e2g/027220_av_drx125_mt_3f_63a_20ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx125_mt_10_250_a_legrand/027220_av_drx125_mt_3f_63a_20ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515285",
+          "offers": []
+        }
+      ]
+    }
+  },
+  {
+    "params": {
+      "per_page": 100
+    },
+    "response": {
+      "page": 1,
+      "per_page": 100,
+      "count": 100,
+      "items": [
+        {
+          "id": 45357,
+          "name": "***LED STARK 30W 2400Lm d98x180 4000K IP20 MEGALIGHT (20)",
+          "article": "ярп4520",
+          "price": 1810,
+          "image": "https://ekt.kz/upload/iblock/c39/u58k0kbv7koy4uikpznyywf0i5h1my7e/led_stark_30w_2400lm_d98x180_4000k_ip20_megalight_20.jpg",
+          "url": "https://ekt.kz/catalog/spets_predlozhenie/aktsiya_megalight_polnyy_sklad_polnyy_bak/_led_stark_30w_2400lm_d98x180_4000k_ip20_megalight_20/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=45357",
+          "offers": []
+        },
+        {
+          "id": 25397,
+          "name": "007886 Диф.авт. 1p+N 16А (30мА) 411002 Legrand (1)!!!",
+          "article": "310100080_",
+          "price": 9430,
+          "image": null,
+          "url": "https://ekt.kz/catalog/spets_predlozhenie/differentsialnye_ustroystva_uzo_avdt_vd/007886_dif_avt_1p_n_16a_30ma_411002_legrand_1_/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=25397",
+          "offers": []
+        },
+        {
+          "id": 58379,
+          "name": "010-002 УПп 60/40.1.1 со стыковочными узлами и винтами",
+          "article": "030300435_",
+          "price": 53,
+          "image": "https://ekt.kz/upload/iblock/df5/j2h6n71ed0v5lrn9e0tko32p70s9i9mp/010_002_upp_60_40_1_1_so_stykovochnymi_uzlami_i_vintami.jpg",
+          "url": "https://ekt.kz/catalog/avtomatizatsiya/ustroystva_plavnogo_puska_iek_/010_002_upp_60_40_1_1_so_stykovochnymi_uzlami_i_vintami/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=58379",
+          "offers": []
+        },
+        {
+          "id": 58380,
+          "name": "010-005 УПрк 97/50.1.1",
+          "article": "030300438_",
+          "price": 199,
+          "image": "https://ekt.kz/upload/iblock/452/p7c0wmkvp2orswbiqrr7x7i3oj9g91te/010_005_uprk_97_50_1_1.jpg",
+          "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/korobki/raspredelitelnye_1/010_005_uprk_97_50_1_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=58380",
+          "offers": []
+        },
+        {
+          "id": 58412,
+          "name": "020-007 Коробка для полых стен с мет. лапками и крышкой УПрк 97/50.1.2. (КМ-206)",
+          "article": "030300329_",
+          "price": 293,
+          "image": "https://ekt.kz/upload/iblock/e6c/xvr6h6018pvtevvtawo09e3nxrynwkcu/020_007_korobka_dlya_polykh_sten_s_met_lapkami_i_kryshkoy_uprk_97_50_1_2_km_206.jpg",
+          "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/korobki/ustanovochnye_podrozetniki/020_007_korobka_dlya_polykh_sten_s_met_lapkami_i_kryshkoy_uprk_97_50_1_2_km_206/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=58412",
+          "offers": []
+        },
+        {
+          "id": 58368,
+          "name": "020-008 Коробка разв.107х107х53 г/к УПрк 110/45.2.2. (72 шт)",
+          "article": "030300044_",
+          "price": 414,
+          "image": "https://ekt.kz/upload/iblock/c41/rqm4qng5ho5yn5b9upprkr9mm3o5b17r/020_008_korobka_razv_107kh107kh53_g_k_uprk_110_45_2_2_72_sht.jpg",
+          "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/korobki/raspredelitelnye_1/020_008_korobka_razv_107kh107kh53_g_k_uprk_110_45_2_2_72_sht/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=58368",
+          "offers": []
+        },
+        {
+          "id": 58378,
+          "name": "020-108 Коробка распаячная для полых стен с пласт. Лапками и крышкой 110/50.2.2",
+          "article": "030300426_",
+          "price": 350,
+          "image": "https://ekt.kz/upload/iblock/f59/ibj4vzbol2318jo1ukilbozywunlsnal/020_108_korobka_raspayachnaya_dlya_polykh_sten_s_plast_lapkami_i_kryshkoy_110_50_2_2.jpg",
+          "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/korobki/raspredelitelnye_1/020_108_korobka_raspayachnaya_dlya_polykh_sten_s_plast_lapkami_i_kryshkoy_110_50_2_2/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=58378",
+          "offers": []
+        },
+        {
+          "id": 515279,
+          "name": "027004 АВ DRX125 MT 3ф 40А 10ka Legrand (1)",
+          "article": "200300273_",
+          "price": 26930,
+          "image": "https://ekt.kz/upload/iblock/592/ecrd69l3r236hyuttkj4lmnz1euly1a7/027004_av_drx125_mt_3f_40a_10ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx125_mt_10_250_a_legrand/027004_av_drx125_mt_3f_40a_10ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515279",
+          "offers": []
+        },
+        {
+          "id": 515280,
+          "name": "027005 АВ DRX125 MT 3ф 50А 10ka Legrand (1)",
+          "article": "200300274_",
+          "price": 26930,
+          "image": "https://ekt.kz/upload/iblock/e99/yqvedowbaop1fju39ky9pau7rmv6qj63/027005_av_drx125_mt_3f_50a_10ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx125_mt_10_250_a_legrand/027005_av_drx125_mt_3f_50a_10ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515280",
+          "offers": []
+        },
+        {
+          "id": 515278,
+          "name": "027008 АВ DRX125 MT 3ф 100А 10ka Legrand (1)",
+          "article": "200300272_",
+          "price": 29190,
+          "image": "https://ekt.kz/upload/iblock/dd5/m7bhmskgees6tmeh613tz5k3q10oldar/027008_av_drx125_mt_3f_100a_10ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx125_mt_10_250_a_legrand/027008_av_drx125_mt_3f_100a_10ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515278",
+          "offers": []
+        },
+        {
+          "id": 515282,
+          "name": "027022 АВ DRX125 MT 3ф 25А 20ka Legrand (1)",
+          "article": "200300276_",
+          "price": 29810,
+          "image": "https://ekt.kz/upload/iblock/076/0k32d23w57a0leyiunq6o8yltqfoynmw/027022_av_drx125_mt_3f_25a_20ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx125_mt_10_250_a_legrand/027022_av_drx125_mt_3f_25a_20ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515282",
+          "offers": []
+        },
+        {
+          "id": 515283,
+          "name": "027024 АВ DRX125 MT 3ф 40А 20ka Legrand (1)",
+          "article": "200300277_",
+          "price": 29810,
+          "image": "https://ekt.kz/upload/iblock/4ec/vurn6p0w0a2y95fktv0n66mrgjig0s08/027024_av_drx125_mt_3f_40a_20ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx125_mt_10_250_a_legrand/027024_av_drx125_mt_3f_40a_20ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515283",
+          "offers": []
+        },
+        {
+          "id": 515281,
+          "name": "027028 АВ DRX125 MT 3ф 100А 20ka Legrand (1)",
+          "article": "200300275_",
+          "price": 33130,
+          "image": "https://ekt.kz/upload/iblock/569/ys2rqxp1g7tpg7hxtuht2747ni73l53a/027028_av_drx125_mt_3f_10a_20ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx125_mt_10_250_a_legrand/027028_av_drx125_mt_3f_10a_20ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515281",
+          "offers": []
+        },
+        {
+          "id": 515290,
+          "name": "027100 АВ DRX250 MT 3ф 125А 18ka Legrand (1)",
+          "article": "200300284_",
+          "price": 64780,
+          "image": "https://ekt.kz/upload/iblock/053/vgn63u873t0vhpsub4zuzd6met8zgb91/027100_av_drx250_mt_3f_125a_18ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx250_mt_10_250_a_legrand/027100_av_drx250_mt_3f_125a_18ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515290",
+          "offers": []
+        },
+        {
+          "id": 515292,
+          "name": "027103 АВ DRX250 MT 3ф 200А 18ka Legrand (1)",
+          "article": "200300286_",
+          "price": 69880,
+          "image": "https://ekt.kz/upload/iblock/be3/e0ed5wa8ni54hge5z0fmtauhuzudpgx6/027103_av_drx250_mt_3f_200a_18ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx250_mt_10_250_a_legrand/027103_av_drx250_mt_3f_200a_18ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515292",
+          "offers": []
+        },
+        {
+          "id": 515286,
+          "name": "027105 АВ DRX250 MT 3ф 250А 18ka Legrand (1)",
+          "article": "200300280_",
+          "price": 69910,
+          "image": "https://ekt.kz/upload/iblock/75b/0w9qn9kumrcv9hqb7s6iegdf2g4b6cpw/027105_av_drx250_mt_3f_250a_18ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx250_mt_10_250_a_legrand/027105_av_drx250_mt_3f_250a_18ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515286",
+          "offers": []
+        },
+        {
+          "id": 515287,
+          "name": "027112 АВ DRX250 MT 3ф 125А 25ka Legrand (1)",
+          "article": "200300281_",
+          "price": 65450,
+          "image": "https://ekt.kz/upload/iblock/828/jx7tloq0z13y4ipsiqs83wuqry8t7xj3/027112_av_drx250_mt_3f_125a_25ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx250_mt_10_250_a_legrand/027112_av_drx250_mt_3f_125a_25ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515287",
+          "offers": []
+        },
+        {
+          "id": 515289,
+          "name": "027115 АВ DRX250 MT 3ф 200А 25ka Legrand (1)",
+          "article": "200300283_",
+          "price": 71160,
+          "image": "https://ekt.kz/upload/iblock/42d/gn2fvf89vn2tgkwzuiurcw99s9mgjbda/027115_av_drx250_mt_3f_200a_25ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx250_mt_10_250_a_legrand/027115_av_drx250_mt_3f_200a_25ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515289",
+          "offers": []
+        },
+        {
+          "id": 515293,
+          "name": "027117 АВ DRX250 MT 3ф 250А 25ka Legrand (1)",
+          "article": "200300287_",
+          "price": 76940,
+          "image": "https://ekt.kz/upload/iblock/9cd/utqxpur1mensee2kealvq68ta9kenbep/027117_av_drx250_mt_3f_250a_25ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx250_mt_10_250_a_legrand/027117_av_drx250_mt_3f_250a_25ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515293",
+          "offers": []
+        },
+        {
+          "id": 515285,
+          "name": "027220 АВ DRX125 MT 3ф 63А 20ka Legrand (1)",
+          "article": "200300279_",
+          "price": 31620,
+          "image": "https://ekt.kz/upload/iblock/ef5/utqen57lj3c7fjwfifxooatqtxcz3e2g/027220_av_drx125_mt_3f_63a_20ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx125_mt_10_250_a_legrand/027220_av_drx125_mt_3f_63a_20ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515285",
+          "offers": []
+        },
+        {
+          "id": 515291,
+          "name": "027228 АВ DRX250 MT 3ф 160А 18ka Legrand (1)",
+          "article": "200300285_",
+          "price": 64920,
+          "image": "https://ekt.kz/upload/iblock/47e/yow62nu665xqw3kk1es94ktbpl2z8pkt/027228_av_drx250_mt_3f_160a_18ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx250_mt_10_250_a_legrand/027228_av_drx250_mt_3f_160a_18ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515291",
+          "offers": []
+        },
+        {
+          "id": 515288,
+          "name": "027230 АВ DRX250 MT 3ф 160А 25ka Legrand (1)",
+          "article": "200300282_",
+          "price": 65920,
+          "image": "https://ekt.kz/upload/iblock/a00/hy7g1xnr71tgeqz7m9b0olycroxt6oi2/027230_av_drx250_mt_3f_160a_25ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx250_mt_10_250_a_legrand/027230_av_drx250_mt_3f_160a_25ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515288",
+          "offers": []
+        },
+        {
+          "id": 515277,
+          "name": "027255 АВ DRX125 MT 3ф 80А 10ka Legrand (1)",
+          "article": "200300271_",
+          "price": 29190,
+          "image": "https://ekt.kz/upload/iblock/2f4/k8wwlsiaafhwpa9m7f3ild2o7kulf9ff/027255_av_drx125_mt_3f_80a_10ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx125_mt_10_250_a_legrand/027255_av_drx125_mt_3f_80a_10ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515277",
+          "offers": []
+        },
+        {
+          "id": 515284,
+          "name": "027257 АВ DRX125 MT 3ф 80А 20ka Legrand (1)",
+          "article": "200300278_",
+          "price": 33130,
+          "image": "https://ekt.kz/upload/iblock/203/e0iyjeljujgg0gn79ljzddvpvzdqxiy4/027257_av_drx125_mt_3f_80a_20ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx125_mt_10_250_a_legrand/027257_av_drx125_mt_3f_80a_20ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515284",
+          "offers": []
+        },
+        {
+          "id": 19988,
+          "name": "09805 IL MX 250F 2D 21W 6500K OPPLE (1) !!!",
+          "article": "151000197_",
+          "price": 2710,
+          "image": "https://ekt.kz/upload/iblock/1cb/09805_il_mx_250f_2d_21w_6500k_opple_1_.png",
+          "url": "https://ekt.kz/catalog/svetilniki_lampy/svetilniki_dlya_vnutrennego_osveshcheniya/nakladnye_lyuministsentnye_lbo_lpo_obn/09805_il_mx_250f_2d_21w_6500k_opple_1_/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=19988",
+          "offers": []
+        },
+        {
+          "id": 25010,
+          "name": "09806 IL MX 305F 2D 38W 6500K OPPLE (1) !!!",
+          "article": "151000198_",
+          "price": 3595,
+          "image": "https://ekt.kz/upload/iblock/01a/09806_il_mx_305f_2d_38w_6500k_opple_1_.png",
+          "url": "https://ekt.kz/catalog/svetilniki_lampy/svetilniki_dlya_vnutrennego_osveshcheniya/nakladnye_lyuministsentnye_lbo_lpo_obn/09806_il_mx_305f_2d_38w_6500k_opple_1_/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=25010",
+          "offers": []
+        },
+        {
+          "id": 35604,
+          "name": "1 и 3 фазное реле контроля для насоса, 5А, 1 CO, 208...480VAC RM35BA10",
+          "article": "RM35BA10",
+          "price": 85380,
+          "image": "https://ekt.kz/upload/iblock/cfe/109gr81zevdvezq0re0ujxuwltjzof4e/1_i_3_faznoe_rele_kontrolya_dlya_nasosa_5a_1_co_208_480vac_rm35ba10.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/rele_schneider_electric/1_i_3_faznoe_rele_kontrolya_dlya_nasosa_5a_1_co_208_480vac_rm35ba10/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=35604",
+          "offers": []
+        },
+        {
+          "id": 35819,
+          "name": "1-фазное реле контроля напряж, 5А, 1 CO, 20…80 V AC/DC RM17UAS16",
+          "article": "RM17UAS16",
+          "price": 49490,
+          "image": "https://ekt.kz/upload/iblock/367/b6ssh3wv4pk3rot4j9sz6fv1i0og0lym/1_faznoe_rele_kontrolya_napryazh_5a_1_co_20_80_v_ac_dc_rm17uas16.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/rele_schneider_electric/1_faznoe_rele_kontrolya_napryazh_5a_1_co_20_80_v_ac_dc_rm17uas16/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=35819",
+          "offers": []
+        },
+        {
+          "id": 35587,
+          "name": "1-фазное реле контроля напряж, 5А, 1 CO, 20…80 V AC/DC RM17UBE16",
+          "article": "RM17UBE16",
+          "price": 67320,
+          "image": "https://ekt.kz/upload/iblock/35a/vilhxjq0z38swthf8rr8g1k2m0w3ay6f/1_faznoe_rele_kontrolya_napryazh_5a_1_co_20_80_v_ac_dc_rm17ube16.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/rele_schneider_electric/1_faznoe_rele_kontrolya_napryazh_5a_1_co_20_80_v_ac_dc_rm17ube16/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=35587",
+          "offers": []
+        },
+        {
+          "id": 35563,
+          "name": "1-фазное реле контроля напряж, 5А, 1 CO, 65…260 V AC/DC RM17UAS15",
+          "article": "RM17UAS15",
+          "price": 43250,
+          "image": "https://ekt.kz/upload/iblock/4a6/a67mn9zqbyak4pvxxf2hk5wmd20kv4mu/1_faznoe_rele_kontrolya_napryazh_5a_1_co_65_260_v_ac_dc_rm17uas15.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/rele_schneider_electric/1_faznoe_rele_kontrolya_napryazh_5a_1_co_65_260_v_ac_dc_rm17uas15/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=35563",
+          "offers": []
+        },
+        {
+          "id": 35574,
+          "name": "1-фазное реле контроля напряж, 5А, 1 CO, 65…260 V AC/DC RM17UBE15",
+          "article": "RM17UBE15",
+          "price": 58830,
+          "image": "https://ekt.kz/upload/iblock/c9f/393y4qbwntmep37yxuas6pqdhkkiav1t/1_faznoe_rele_kontrolya_napryazh_5a_1_co_65_260_v_ac_dc_rm17ube15.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/rele_schneider_electric/1_faznoe_rele_kontrolya_napryazh_5a_1_co_65_260_v_ac_dc_rm17ube15/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=35574",
+          "offers": []
+        },
+        {
+          "id": 35585,
+          "name": "1-фазное реле контроля напряж, 5А, 1 CO, 9…15VDC RM17UAS14",
+          "article": "RM17UAS14",
+          "price": 47760,
+          "image": "https://ekt.kz/upload/iblock/e4a/exhtiqt3zev812fxlzjatvro6v1b78y8/1_faznoe_rele_kontrolya_napryazh_5a_1_co_9_15vdc_rm17uas14.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/rele_schneider_electric/1_faznoe_rele_kontrolya_napryazh_5a_1_co_9_15vdc_rm17uas14/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=35585",
+          "offers": []
+        },
+        {
+          "id": 35609,
+          "name": "1-фазное реле контроля напряж, 5А, 2 CO, диапазон изм 1-100 В, питание 24-240 V AC/DC RM35UA12MW",
+          "article": "RM35UA12MW",
+          "price": 69680,
+          "image": "https://ekt.kz/upload/iblock/e8c/4fv9te3pyx6ldp44b2skwvm4zia7kgpg/1_faznoe_rele_kontrolya_napryazh_5a_2_co_diapazon_izm_1_100_v_pitanie_24_240_v_ac_dc_rm35ua12mw.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/rele_schneider_electric/1_faznoe_rele_kontrolya_napryazh_5a_2_co_diapazon_izm_1_100_v_pitanie_24_240_v_ac_dc_rm35ua12mw/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=35609",
+          "offers": []
+        },
+        {
+          "id": 35608,
+          "name": "1-фазное реле контроля напряж, 5А, 2 CO, диапазон измер 0.05-5 В, питание 24-240 V AC/DC RM35UA11MW",
+          "article": "RM35UA11MW",
+          "price": 60490,
+          "image": "https://ekt.kz/upload/iblock/70a/mm19yer904nu8vo6thvz0knzd199knu3/1_faznoe_rele_kontrolya_napryazh_5a_2_co_diapazon_izmer_0_05_5_v_pitanie_24_240_v_ac_dc_rm35ua11mw.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/rele_schneider_electric/1_faznoe_rele_kontrolya_napryazh_5a_2_co_diapazon_izmer_0_05_5_v_pitanie_24_240_v_ac_dc_rm35ua11mw/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=35608",
+          "offers": []
+        },
+        {
+          "id": 35610,
+          "name": "1-фазное реле контроля напряж, 5А, 2 CO, диапазон измер 15-600 В, питание 24-240 V AC/DC RM35UA13MW",
+          "article": "RM35UA13MW",
+          "price": 67270,
+          "image": "https://ekt.kz/upload/iblock/ced/hv0kuaubpnl1xqu1n9o9h6nuq8p1vlg0/1_faznoe_rele_kontrolya_napryazh_5a_2_co_diapazon_izmer_15_600_v_pitanie_24_240_v_ac_dc_rm35ua13mw.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/rele_schneider_electric/1_faznoe_rele_kontrolya_napryazh_5a_2_co_diapazon_izmer_15_600_v_pitanie_24_240_v_ac_dc_rm35ua13mw/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=35610",
+          "offers": []
+        },
+        {
+          "id": 35599,
+          "name": "1-фазное реле контроля напряж, 8 A, 2 CO, 0.05…5 V AC/DC, 24…240 V AC/DC RM22UA31MR",
+          "article": "RM22UA31MR",
+          "price": 94060,
+          "image": "https://ekt.kz/upload/iblock/196/2a0n40ypc5u0279ezm13ok4ow451nhdf/1_faznoe_rele_kontrolya_napryazh_8_a_2_co_0_05_5_v_ac_dc_24_240_v_ac_dc_rm22ua31mr.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/rele_schneider_electric/1_faznoe_rele_kontrolya_napryazh_8_a_2_co_0_05_5_v_ac_dc_24_240_v_ac_dc_rm22ua31mr/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=35599",
+          "offers": []
+        },
+        {
+          "id": 35600,
+          "name": "1-фазное реле контроля напряж, 8 A, 2 CO, 1…100 V AC/DC, 24…240 V AC/DC RM22UA32MR",
+          "article": "RM22UA32MR",
+          "price": 39360,
+          "image": "https://ekt.kz/upload/iblock/fe5/3m9imlm19l1aqxox018i3psdsvyz19rg/1_faznoe_rele_kontrolya_napryazh_8_a_2_co_1_100_v_ac_dc_24_240_v_ac_dc_rm22ua32mr.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/rele_schneider_electric/1_faznoe_rele_kontrolya_napryazh_8_a_2_co_1_100_v_ac_dc_24_240_v_ac_dc_rm22ua32mr/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=35600",
+          "offers": []
+        },
+        {
+          "id": 35573,
+          "name": "1-фазное реле контроля напряж, 8 A, 2 CO, 15…500 V AC/DC, 24…240 V AC/DC RM22UA33MR",
+          "article": "RM22UA33MR",
+          "price": 38370,
+          "image": "https://ekt.kz/upload/iblock/7b7/sth84evq2zriuf282g2bxv2aejgoccn5/1_faznoe_rele_kontrolya_napryazh_8_a_2_co_15_500_v_ac_dc_24_240_v_ac_dc_rm22ua33mr.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/rele_schneider_electric/1_faznoe_rele_kontrolya_napryazh_8_a_2_co_15_500_v_ac_dc_24_240_v_ac_dc_rm22ua33mr/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=35573",
+          "offers": []
+        },
+        {
+          "id": 35601,
+          "name": "1-фазное реле контроля напряж, 8 A, 2 CO, 15…500VAC, 380…415VAC RM22UA33MT",
+          "article": "RM22UA33MT",
+          "price": 86540,
+          "image": "https://ekt.kz/upload/iblock/b37/evdxf193s8gpihd7b4b68dckbm53wcmw/1_faznoe_rele_kontrolya_napryazh_8_a_2_co_15_500vac_380_415vac_rm22ua33mt.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/rele_schneider_electric/1_faznoe_rele_kontrolya_napryazh_8_a_2_co_15_500vac_380_415vac_rm22ua33mt/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=35601",
+          "offers": []
+        },
+        {
+          "id": 35581,
+          "name": "1-фазное реле контроля напряж, 8 A, 2 CO, 80…300 V AC/DC, 110…240 V AC/DC RM22UB34",
+          "article": "RM22UB34",
+          "price": 35730,
+          "image": "https://ekt.kz/upload/iblock/775/vqp79ajor0l5xitkj8roltd9d45r6kkf/1_faznoe_rele_kontrolya_napryazh_8_a_2_co_80_300_v_ac_dc_110_240_v_ac_dc_rm22ub34.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/rele_schneider_electric/1_faznoe_rele_kontrolya_napryazh_8_a_2_co_80_300_v_ac_dc_110_240_v_ac_dc_rm22ub34/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=35581",
+          "offers": []
+        },
+        {
+          "id": 35598,
+          "name": "1-фазное реле контроля повыш напр, 8 A, 2 CO, диап изм 15-500 V AC/DC, пит 24-240 V AC/DC RM22UA23MR",
+          "article": "RM22UA23MR",
+          "price": 44880,
+          "image": "https://ekt.kz/upload/iblock/25b/h6c0j19lk5r9orxj3lxw3jqjqbrz22yy/1_faznoe_rele_kontrolya_povysh_napr_8_a_2_co_diap_izm_15_500_v_ac_dc_pit_24_240_v_ac_dc_rm22ua23mr.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/rele_schneider_electric/1_faznoe_rele_kontrolya_povysh_napr_8_a_2_co_diap_izm_15_500_v_ac_dc_pit_24_240_v_ac_dc_rm22ua23mr/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=35598",
+          "offers": []
+        },
+        {
+          "id": 35596,
+          "name": "1-фазное реле контроля повыш напряж, 8A, 2CO, диап изм 0.0-5 V AC/DC, пит 24-240 V AC/DC RM22UA21MR",
+          "article": "RM22UA21MR",
+          "price": 79010,
+          "image": "https://ekt.kz/upload/iblock/4af/sqqbeqve85klh55nrg98hvtljd3jycwi/1_faznoe_rele_kontrolya_povysh_napryazh_8a_2co_diap_izm_0_0_5_v_ac_dc_pit_24_240_v_ac_dc_rm22ua21mr.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/rele_schneider_electric/1_faznoe_rele_kontrolya_povysh_napryazh_8a_2co_diap_izm_0_0_5_v_ac_dc_pit_24_240_v_ac_dc_rm22ua21mr/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=35596",
+          "offers": []
+        },
+        {
+          "id": 35597,
+          "name": "1-фазное реле контроля повыш напряж, 8A, 2CO, диап изм 1-100 V AC/DC, пит 24-240 V AC/DC RM22UA22MR",
+          "article": "RM22UA22MR",
+          "price": 35130,
+          "image": "https://ekt.kz/upload/iblock/031/m8zdjeivl7wmz320t6v7tg1n5b6yircw/1_faznoe_rele_kontrolya_povysh_napryazh_8a_2co_diap_izm_1_100_v_ac_dc_pit_24_240_v_ac_dc_rm22ua22mr.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/rele_schneider_electric/1_faznoe_rele_kontrolya_povysh_napryazh_8a_2co_diap_izm_1_100_v_ac_dc_pit_24_240_v_ac_dc_rm22ua22mr/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=35597",
+          "offers": []
+        },
+        {
+          "id": 35589,
+          "name": "1-фазное реле контроля тока, 4мА…1 A, 2 CO, 24…240 V AC/DC RM22JA31MR",
+          "article": "RM22JA31MR",
+          "price": 78720,
+          "image": "https://ekt.kz/upload/iblock/727/hk2uwghzaj5y98li0gbzehq1g59ijjn7/1_faznoe_rele_kontrolya_toka_4ma_1_a_2_co_24_240_v_ac_dc_rm22ja31mr.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/rele_schneider_electric/1_faznoe_rele_kontrolya_toka_4ma_1_a_2_co_24_240_v_ac_dc_rm22ja31mr/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=35589",
+          "offers": []
+        },
+        {
+          "id": 35572,
+          "name": "1-фазное реле контроля тока, 5А, 2 CO, 0.15…15А, 24…240 V AC/DC RM35JA32MR",
+          "article": "RM35JA32MR",
+          "price": 62470,
+          "image": "https://ekt.kz/upload/iblock/1ef/6m1r75com9j1x1q23dwx71s9x0514qkc/1_faznoe_rele_kontrolya_toka_5a_2_co_0_15_15a_24_240_v_ac_dc_rm35ja32mr.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/rele_schneider_electric/1_faznoe_rele_kontrolya_toka_5a_2_co_0_15_15a_24_240_v_ac_dc_rm35ja32mr/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=35572",
+          "offers": []
+        },
+        {
+          "id": 35818,
+          "name": "1-фазное реле контроля тока, 5А, 2 CO, 0.15…15А, 24…240 V AC/DC RM35JA32MW",
+          "article": "RM35JA32MW",
+          "price": 84970,
+          "image": "https://ekt.kz/upload/iblock/2f4/179faka313i1y0s8i7q4ekioetrvxvxd/1_faznoe_rele_kontrolya_toka_5a_2_co_0_15_15a_24_240_v_ac_dc_rm35ja32mw.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/rele_schneider_electric/1_faznoe_rele_kontrolya_toka_5a_2_co_0_15_15a_24_240_v_ac_dc_rm35ja32mw/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=35818",
+          "offers": []
+        },
+        {
+          "id": 35568,
+          "name": "1-фазное реле контроля тока, 5А, 2 CO, 2…500мА, 24…240 V AC/DC RM35JA31MW",
+          "article": "RM35JA31MW",
+          "price": 62470,
+          "image": "https://ekt.kz/upload/iblock/9ae/k4zymnqv6j868xk3jcacnjgkuy93dyxw/1_faznoe_rele_kontrolya_toka_5a_2_co_2_500ma_24_240_v_ac_dc_rm35ja31mw.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/rele_schneider_electric/1_faznoe_rele_kontrolya_toka_5a_2_co_2_500ma_24_240_v_ac_dc_rm35ja31mw/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=35568",
+          "offers": []
+        },
+        {
+          "id": 35588,
+          "name": "1-фазное реле контроля тока, 8 A, 2 CO, 24…240 V AC/DC RM22JA21MR",
+          "article": "RM22JA21MR",
+          "price": 58180,
+          "image": "https://ekt.kz/upload/iblock/307/4y2mtck20kcc53b1tco3rmw4t22aaiz7/1_faznoe_rele_kontrolya_toka_8_a_2_co_24_240_v_ac_dc_rm22ja21mr.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/rele_schneider_electric/1_faznoe_rele_kontrolya_toka_8_a_2_co_24_240_v_ac_dc_rm22ja21mr/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=35588",
+          "offers": []
+        },
+        {
+          "id": 18945,
+          "name": "11-Л-90 (устан.с/п) (100)",
+          "article": "030300017_",
+          "price": 77,
+          "image": "https://ekt.kz/upload/iblock/88c/11_l_90_ustan_s_p_100.jpg",
+          "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/korobki/ustanovochnye_podrozetniki/11_l_90_ustan_s_p_100/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=18945",
+          "offers": []
+        },
+        {
+          "id": 54323,
+          "name": "11006 BA 101 1P 16А х-ка B DEKraft",
+          "article": "11006DEK",
+          "price": 403,
+          "image": "https://ekt.kz/upload/iblock/865/dpb0g25giry103qnapnexdiczbdloc2d/11006_ba_101_1p_16a_kh_ka_b_dekraft.jpg",
+          "url": "https://ekt.kz/catalog/spets_predlozhenie/rasprodazha_dekraft/11006_ba_101_1p_16a_kh_ka_b_dekraft/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=54323",
+          "offers": []
+        },
+        {
+          "id": 54345,
+          "name": "11122 ВА 101 3Р 2А хак-ка D DEKraft",
+          "article": "11122DEK",
+          "price": 1544,
+          "image": "https://ekt.kz/upload/iblock/e42/b5nmz91c0ls9jr10o1rxrx50vyhpo0i6/11122_va_101_3r_2a_khak_ka_d_dekraft.jpg",
+          "url": "https://ekt.kz/catalog/spets_predlozhenie/rasprodazha_dekraft/11122_va_101_3r_2a_khak_ka_d_dekraft/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=54345",
+          "offers": []
+        },
+        {
+          "id": 54342,
+          "name": "11125 BA 101 3P 10А х-ка D DEKraft",
+          "article": "11125DEK",
+          "price": 1380,
+          "image": "https://ekt.kz/upload/iblock/9a9/i3b0b9r5qwwmkwey5u510md461masmi8/11125_ba_101_3p_10a_kh_ka_d_dekraft.jpg",
+          "url": "https://ekt.kz/catalog/spets_predlozhenie/rasprodazha_dekraft/11125_ba_101_3p_10a_kh_ka_d_dekraft/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=54342",
+          "offers": []
+        },
+        {
+          "id": 54341,
+          "name": "11127 BA 101 3P 20А х-ка D DEKraft",
+          "article": "11127DEK",
+          "price": 1396,
+          "image": "https://ekt.kz/upload/iblock/525/uspy9dwxx18ksz4znh2cmcopp5ct24gv/11127_ba_101_3p_20a_kh_ka_d_dekraft.jpg",
+          "url": "https://ekt.kz/catalog/spets_predlozhenie/rasprodazha_dekraft/11127_ba_101_3p_20a_kh_ka_d_dekraft/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=54341",
+          "offers": []
+        },
+        {
+          "id": 54351,
+          "name": "11128 BA 101 3P 25A х-ка D DEKraft",
+          "article": "11128DEK",
+          "price": 1380,
+          "image": "https://ekt.kz/upload/iblock/263/x1dn5l2ijgzzubf7gqnutwtgwb03fk1v/11128_ba_101_3p_25a_kh_ka_d_dekraft.jpg",
+          "url": "https://ekt.kz/catalog/spets_predlozhenie/rasprodazha_dekraft/11128_ba_101_3p_25a_kh_ka_d_dekraft/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=54351",
+          "offers": []
+        },
+        {
+          "id": 54340,
+          "name": "11129 BA 101 3P 32А х-ка D DEKraft",
+          "article": "11129DEK",
+          "price": 1560,
+          "image": "https://ekt.kz/upload/iblock/c76/eopjriyyf01fmvy0yfi25unibpa59if2/11129_ba_101_3p_32a_kh_ka_d_dekraft.jpg",
+          "url": "https://ekt.kz/catalog/spets_predlozhenie/rasprodazha_dekraft/11129_ba_101_3p_32a_kh_ka_d_dekraft/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=54340",
+          "offers": []
+        },
+        {
+          "id": 54339,
+          "name": "11130 BA 101 3P 40А х-ка D DEKraft",
+          "article": "11130DEK",
+          "price": 1565,
+          "image": "https://ekt.kz/upload/iblock/13e/239bh5w0u2jx1gez6kdzucwpc6gs4oqt/11130_ba_101_3p_40a_kh_ka_d_dekraft.jpg",
+          "url": "https://ekt.kz/catalog/spets_predlozhenie/rasprodazha_dekraft/11130_ba_101_3p_40a_kh_ka_d_dekraft/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=54339",
+          "offers": []
+        },
+        {
+          "id": 54338,
+          "name": "11131 BA 101 3P 50А х-ка D DEKraft",
+          "article": "11131DEK",
+          "price": 1720,
+          "image": "https://ekt.kz/upload/iblock/f42/c3phbq6a6wkgtz1hi4nn8nn6psxybdcp/11131_ba_101_3p_50a_kh_ka_d_dekraft.jpg",
+          "url": "https://ekt.kz/catalog/spets_predlozhenie/rasprodazha_dekraft/11131_ba_101_3p_50a_kh_ka_d_dekraft/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=54338",
+          "offers": []
+        },
+        {
+          "id": 21182,
+          "name": "11204 ВА 63 (1ф) 20А 404029 Legrand (10) !!!",
+          "article": "310100024_",
+          "price": 941,
+          "image": "https://ekt.kz/upload/iblock/068/11204_va_63_1f_20a_404029_legrand_10_.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/modulnye_avtomaticheskie_vyklyuchateli/11204_va_63_1f_20a_404029_legrand_10_/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=21182",
+          "offers": []
+        },
+        {
+          "id": 21185,
+          "name": "11208 ВА 63 (1ф) 50А 404033 Legrand (10) !!!",
+          "article": "310100028_",
+          "price": 1635,
+          "image": "https://ekt.kz/upload/iblock/d51/11208_va_63_1f_50a_404033_legrand_10_.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/modulnye_avtomaticheskie_vyklyuchateli/11208_va_63_1f_50a_404033_legrand_10_/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=21185",
+          "offers": []
+        },
+        {
+          "id": 24160,
+          "name": "11209 ВА 63 (1ф) 63А 404034 Legrand (10) !!!",
+          "article": "310100084_",
+          "price": 1758,
+          "image": "https://ekt.kz/upload/iblock/f51/11209_va_63_1f_63a_404034_legrand_10_.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/modulnye_avtomaticheskie_vyklyuchateli/11209_va_63_1f_63a_404034_legrand_10_/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=24160",
+          "offers": []
+        },
+        {
+          "id": 18157,
+          "name": "11224 ВА 63 (3ф) 20А 404057 Legrand (1) !!!",
+          "article": "310100086_",
+          "price": 2968,
+          "image": "https://ekt.kz/upload/iblock/232/n7v7q1p5dadbjxmdqxxif6bxp8l8dc1r/11224_va_63_3f_20a_404057_legrand_1_.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/modulnye_avtomaticheskie_vyklyuchateli/11224_va_63_3f_20a_404057_legrand_1_/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=18157",
+          "offers": []
+        },
+        {
+          "id": 25139,
+          "name": "11227 ВА 63 (3ф) 40А 404060 Legrand (1) !!!",
+          "article": "310100033_",
+          "price": 5040,
+          "image": "https://ekt.kz/upload/iblock/7e3/11227_va_63_3f_40a_404060_legrand_1_.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/modulnye_avtomaticheskie_vyklyuchateli/11227_va_63_3f_40a_404060_legrand_1_/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=25139",
+          "offers": []
+        },
+        {
+          "id": 24164,
+          "name": "11450 УЗО ВД63 (2ф) 25А (30мА) 007888 Legrand (1)!!!",
+          "article": "310100081_",
+          "price": 9766,
+          "image": "https://ekt.kz/upload/iblock/616/i9n6u7qassl5f1d36qng57qx5f7y1z35/11450_uzo_vd63_2f_25a_30ma_007888_legrand_1_.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/ustroystvo_differentsialnoy_zashchity/11450_uzo_vd63_2f_25a_30ma_007888_legrand_1_/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=24164",
+          "offers": []
+        },
+        {
+          "id": 21049,
+          "name": "11450 УЗО ВД63 (2ф) 25А (30мА) 403000 Legrand (1) !!!",
+          "article": "310100082_",
+          "price": 7683,
+          "image": "https://ekt.kz/upload/iblock/9f0/11450_uzo_vd63_2f_25a_30ma_403000_legrand_1_.png",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/ustroystvo_differentsialnoy_zashchity/11450_uzo_vd63_2f_25a_30ma_403000_legrand_1_/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=21049",
+          "offers": []
+        },
+        {
+          "id": 21190,
+          "name": "11450 УЗО ВД63 (2ф) 25А (30мА) Schn El (1) !!!",
+          "article": "010400056_",
+          "price": 13704,
+          "image": "https://ekt.kz/upload/iblock/213/11450_uzo_vd63_2f_25a_30ma_schn_el_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/ustroystvo_differentsialnoy_zashchity/vd63_schneider_electric/11450_uzo_vd63_2f_25a_30ma_schn_el_1_/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=21190",
+          "offers": []
+        },
+        {
+          "id": 18158,
+          "name": "11452 УЗО ВД63 (2ф) 40А (30мА) Schn El (1) !!!",
+          "article": "010400058_",
+          "price": 13170,
+          "image": "https://ekt.kz/upload/iblock/97f/h06rv2t6tueycky2twculvtmg12zq4j2/11452_uzo_vd63_2f_40a_30ma_schn_el_1_.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/ustroystvo_differentsialnoy_zashchity/vd63_schneider_electric/11452_uzo_vd63_2f_40a_30ma_schn_el_1_/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=18158",
+          "offers": []
+        },
+        {
+          "id": 21191,
+          "name": "11455 УЗО ВД63 (2ф) 63А (30мА) Schn El (1) !!!",
+          "article": "010400060_",
+          "price": 15440,
+          "image": "https://ekt.kz/upload/iblock/393/11455_uzo_vd63_2f_63a_30ma_schn_el_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/ustroystvo_differentsialnoy_zashchity/vd63_schneider_electric/11455_uzo_vd63_2f_63a_30ma_schn_el_1_/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=21191",
+          "offers": []
+        },
+        {
+          "id": 18159,
+          "name": "11460 УЗО ВД63 (4ф) 25А (30мА) Schn El (1) !!!",
+          "article": "010400061_",
+          "price": 19860,
+          "image": "https://ekt.kz/upload/iblock/215/11460_uzo_vd63_4f_25a_30ma_schn_el_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/ustroystvo_differentsialnoy_zashchity/vd63_schneider_electric/11460_uzo_vd63_4f_25a_30ma_schn_el_1_/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=18159",
+          "offers": []
+        },
+        {
+          "id": 24163,
+          "name": "11463 УЗО ВД63 (4ф) 40А (30мА) Schn El (1) !!!",
+          "article": "010400122_",
+          "price": 20890,
+          "image": "https://ekt.kz/upload/iblock/355/11463_uzo_vd63_4f_40a_30ma_schn_el_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/ustroystvo_differentsialnoy_zashchity/vd63_schneider_electric/11463_uzo_vd63_4f_40a_30ma_schn_el_1_/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=24163",
+          "offers": []
+        },
+        {
+          "id": 18160,
+          "name": "11466 УЗО ВД63 (4ф) 63А (30мА) Schn El (1) !!!",
+          "article": "010400123_",
+          "price": 28830,
+          "image": "https://ekt.kz/upload/iblock/47a/4kv0zhnuzoi415bq4o4qa07w6fchs2em/11466_uzo_vd63_4f_63a_30ma_schn_el_1_.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/ustroystvo_differentsialnoy_zashchity/vd63_schneider_electric/11466_uzo_vd63_4f_63a_30ma_schn_el_1_/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=18160",
+          "offers": []
+        },
+        {
+          "id": 24165,
+          "name": "11472 УЗО АД63 (2ф) 40А (300мА) Schn El (1) !!!",
+          "article": "010400079_",
+          "price": 22735,
+          "image": "https://ekt.kz/upload/iblock/195/11472_uzo_ad63_2f_40a_300ma_schn_el_1_.jpeg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/ustroystvo_differentsialnoy_zashchity/11472_uzo_ad63_2f_40a_300ma_schn_el_1_/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=24165",
+          "offers": []
+        },
+        {
+          "id": 24167,
+          "name": "11473 УЗО АД63 (2ф) 16А (30мА) Schn El (1) !!!",
+          "article": "010400067_",
+          "price": 18260,
+          "image": "https://ekt.kz/upload/iblock/76f/zufsefdsija5aqmfpl42it7dvm050t14/11473_uzo_ad63_2f_16a_30ma_schn_el_1_.jpeg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/ustroystvo_differentsialnoy_zashchity/vd63_schneider_electric/11473_uzo_ad63_2f_16a_30ma_schn_el_1_/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=24167",
+          "offers": []
+        },
+        {
+          "id": 23180,
+          "name": "11474 УЗО АД63 (2ф) 25А (30мА) Schn El (1) !!!",
+          "article": "010400068_",
+          "price": 12280,
+          "image": "https://ekt.kz/upload/iblock/2fd/j1c0kcrirp3dguz27f86uyc88bd9el0a/11474_uzo_ad63_2f_25a_30ma_schn_el_1_.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/ustroystvo_differentsialnoy_zashchity/vd63_schneider_electric/11474_uzo_ad63_2f_25a_30ma_schn_el_1_/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=23180",
+          "offers": []
+        },
+        {
+          "id": 24166,
+          "name": "11475 УЗО АД63 (2ф) 40А (30мА) Schn El (1) !!!",
+          "article": "010400069_",
+          "price": 25740,
+          "image": "https://ekt.kz/upload/iblock/5e3/dyheco7dhl321j277sw4uodu0h28plpd/11475_uzo_ad63_2f_40a_30ma_schn_el_1_.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/ustroystvo_differentsialnoy_zashchity/vd63_schneider_electric/11475_uzo_ad63_2f_40a_30ma_schn_el_1_/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=24166",
+          "offers": []
+        },
+        {
+          "id": 33700,
+          "name": "12106 АВ (1ф) 6А Schneider Electric (12)",
+          "article": "010400566_",
+          "price": 2970,
+          "image": "https://ekt.kz/upload/iblock/ee7/wzqjwnfx184z0484wk166w3x7wtr1dh0/12106_av_1f_6a_schneider_electric_12.jpg",
+          "url": "https://ekt.kz/catalog/novinki/shchitovoe_oborudovanie_aktsiya_10/12106_av_1f_6a_schneider_electric_12/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=33700",
+          "offers": []
+        },
+        {
+          "id": 33701,
+          "name": "12110 АВ (1ф) 10А Schneider Electric (12)",
+          "article": "010400567_",
+          "price": 2295,
+          "image": "https://ekt.kz/upload/iblock/f66/t7sidyfiumdt8snl2p5zy7btsd0glxzq/12110_av_1f_10a_schneider_electric_12.jpg",
+          "url": "https://ekt.kz/catalog/novinki/shchitovoe_oborudovanie_aktsiya_10/12110_av_1f_10a_schneider_electric_12/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=33701",
+          "offers": []
+        },
+        {
+          "id": 33702,
+          "name": "12116 АВ (1ф) 16А Schneider Electric (12)",
+          "article": "010400568_",
+          "price": 2210,
+          "image": "https://ekt.kz/upload/iblock/e8f/xcz1fk37g2li9b3wdguq0hh8x703ouwo/12116_av_1f_16a_schneider_electric_12.jpg",
+          "url": "https://ekt.kz/catalog/novinki/shchitovoe_oborudovanie_aktsiya_10/12116_av_1f_16a_schneider_electric_12/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=33702",
+          "offers": []
+        },
+        {
+          "id": 33703,
+          "name": "12120 АВ (1ф) 20А Schneider Electric (12)",
+          "article": "010400569_",
+          "price": 2295,
+          "image": "https://ekt.kz/upload/iblock/609/owq5lsrb24i7ilcq3juiffqmw8i42pu2/12120_av_1f_20a_schneider_electric_12.jpg",
+          "url": "https://ekt.kz/catalog/novinki/shchitovoe_oborudovanie_aktsiya_10/12120_av_1f_20a_schneider_electric_12/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=33703",
+          "offers": []
+        },
+        {
+          "id": 33704,
+          "name": "12125 АВ (1ф) 25А Schneider Electric (12)",
+          "article": "010400570_",
+          "price": 2210,
+          "image": "https://ekt.kz/upload/iblock/47d/f51eel9ekn52e9eq7f4rl0r8o1q5pplg/12125_av_1f_25a_schneider_electric_12.jpg",
+          "url": "https://ekt.kz/catalog/novinki/shchitovoe_oborudovanie_aktsiya_10/12125_av_1f_25a_schneider_electric_12/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=33704",
+          "offers": []
+        },
+        {
+          "id": 33705,
+          "name": "12132 АВ (1ф) 32А Schneider Electric (12)",
+          "article": "010400571_",
+          "price": 2880,
+          "image": "https://ekt.kz/upload/iblock/940/awuvy868uabm3kawlguatr7t8zdr3xk6/12132_av_1f_32a_schneider_electric_12.jpg",
+          "url": "https://ekt.kz/catalog/novinki/shchitovoe_oborudovanie_aktsiya_10/12132_av_1f_32a_schneider_electric_12/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=33705",
+          "offers": []
+        },
+        {
+          "id": 33706,
+          "name": "12140 АВ (1ф) 40А Schneider Electric (12)",
+          "article": "010400572_",
+          "price": 2880,
+          "image": "https://ekt.kz/upload/iblock/b41/7q0wwa7ijz8dpzoluwz1ogv6yhbd2k5g/12140_av_1f_40a_schneider_electric_12.jpg",
+          "url": "https://ekt.kz/catalog/novinki/shchitovoe_oborudovanie_aktsiya_10/12140_av_1f_40a_schneider_electric_12/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=33706",
+          "offers": []
+        },
+        {
+          "id": 33707,
+          "name": "12150 АВ (1ф) 50А Schneider Electric (12)",
+          "article": "010400573_",
+          "price": 4590,
+          "image": "https://ekt.kz/upload/iblock/abf/rnn895bjbdsjke40urt3svqcaa4jdqi5/12150_av_1f_50a_schneider_electric_12.jpg",
+          "url": "https://ekt.kz/catalog/novinki/shchitovoe_oborudovanie_aktsiya_10/12150_av_1f_50a_schneider_electric_12/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=33707",
+          "offers": []
+        },
+        {
+          "id": 33708,
+          "name": "12163 АВ (1ф) 63А Schneider Electric (12)",
+          "article": "010400574_",
+          "price": 4890,
+          "image": "https://ekt.kz/upload/iblock/a40/kixk1ttfqpdb302va7j8p1ybo01bobpd/12163_av_1f_63a_schneider_electric_12.jpg",
+          "url": "https://ekt.kz/catalog/novinki/shchitovoe_oborudovanie_aktsiya_10/12163_av_1f_63a_schneider_electric_12/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=33708",
+          "offers": []
+        },
+        {
+          "id": 22998,
+          "name": "122-15110 &quot;KAMELYA&quot; MINI E27 230мм (48)",
+          "article": "150100706_",
+          "price": 1560,
+          "image": "https://ekt.kz/upload/iblock/59e/122_15110_kamelya_mini_e27_230mm_48.jpg",
+          "url": "https://ekt.kz/catalog/svetilniki_lampy/svetilniki_dlya_vnutrennego_osveshcheniya/nakladnye_pod_energosberegayushchuyu_lampu_npo_npb_nbb/122_15110_kamelya_mini_e27_230mm_48/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=22998",
+          "offers": []
+        },
+        {
+          "id": 20191,
+          "name": "122-15115 &quot;AKASYA&quot; MINI E27 230мм (48)",
+          "article": "150100703_",
+          "price": 1240,
+          "image": "https://ekt.kz/upload/iblock/c92/122_15115_akasya_mini_e27_230mm_48.png",
+          "url": "https://ekt.kz/catalog/svetilniki_lampy/svetilniki_dlya_vnutrennego_osveshcheniya/nakladnye_pod_energosberegayushchuyu_lampu_npo_npb_nbb/122_15115_akasya_mini_e27_230mm_48/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=20191",
+          "offers": []
+        },
+        {
+          "id": 21192,
+          "name": "122-15210 &quot;KAMELYA&quot; STANDART 2х E27 265мм (36)",
+          "article": "150100707_",
+          "price": 1890,
+          "image": "https://ekt.kz/upload/iblock/789/122_15210_kamelya_standart_2kh_e27_265mm_36.jpg",
+          "url": "https://ekt.kz/catalog/svetilniki_lampy/svetilniki_dlya_vnutrennego_osveshcheniya/nakladnye_pod_energosberegayushchuyu_lampu_npo_npb_nbb/122_15210_kamelya_standart_2kh_e27_265mm_36/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=21192",
+          "offers": []
+        },
+        {
+          "id": 22183,
+          "name": "122-15215 &quot;AKASYA&quot; STANDART 2х Е27 265мм (36)",
+          "article": "150100704_",
+          "price": 1730,
+          "image": "https://ekt.kz/upload/iblock/9aa/122_15215_akasya_standart_2kh_e27_265mm_36.png",
+          "url": "https://ekt.kz/catalog/svetilniki_lampy/svetilniki_dlya_vnutrennego_osveshcheniya/nakladnye_pod_energosberegayushchuyu_lampu_npo_npb_nbb/122_15215_akasya_standart_2kh_e27_265mm_36/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=22183",
+          "offers": []
+        },
+        {
+          "id": 18161,
+          "name": "122-15310 &quot;KAMELYA&quot; MAXI 2х E27 400мм (10)",
+          "article": "150100708_",
+          "price": 3680,
+          "image": "https://ekt.kz/upload/iblock/b39/122_15310_kamelya_maxi_2kh_e27_400mm_10.jpg",
+          "url": "https://ekt.kz/catalog/svetilniki_lampy/svetilniki_dlya_vnutrennego_osveshcheniya/nakladnye_pod_energosberegayushchuyu_lampu_npo_npb_nbb/122_15310_kamelya_maxi_2kh_e27_400mm_10/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=18161",
+          "offers": []
+        },
+        {
+          "id": 23181,
+          "name": "122-15315 &quot;AKASYA&quot; MAXI 2х E27 400мм (10)",
+          "article": "150100705_",
+          "price": 3090,
+          "image": "https://ekt.kz/upload/iblock/733/122_15315_akasya_maxi_2kh_e27_400mm_10.png",
+          "url": "https://ekt.kz/catalog/svetilniki_lampy/svetilniki_dlya_vnutrennego_osveshcheniya/nakladnye_pod_energosberegayushchuyu_lampu_npo_npb_nbb/122_15315_akasya_maxi_2kh_e27_400mm_10/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=23181",
+          "offers": []
+        },
+        {
+          "id": 33709,
+          "name": "12206 АВ (2ф) 6А Schneider Electric (6)",
+          "article": "010400575_",
+          "price": 6040,
+          "image": "https://ekt.kz/upload/iblock/a46/apaz7oqlldmllv01dablx5t9hghxf0ex/12206_av_2f_6a_schneider_electric_6.jpg",
+          "url": "https://ekt.kz/catalog/novinki/shchitovoe_oborudovanie_aktsiya_10/12206_av_2f_6a_schneider_electric_6/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=33709",
+          "offers": []
+        },
+        {
+          "id": 33710,
+          "name": "12210 АВ (2ф) 10А Schneider Electric (6)",
+          "article": "010400576_",
+          "price": 5180,
+          "image": "https://ekt.kz/upload/iblock/b28/fur3r240veeb2bzschcwjh6ue992gnw5/12210_av_2f_10a_schneider_electric_6.jpg",
+          "url": "https://ekt.kz/catalog/novinki/shchitovoe_oborudovanie_aktsiya_10/12210_av_2f_10a_schneider_electric_6/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=33710",
+          "offers": []
+        },
+        {
+          "id": 33711,
+          "name": "12216 АВ (2ф) 16А Schneider Electric (6)",
+          "article": "010400577_",
+          "price": 5180,
+          "image": "https://ekt.kz/upload/iblock/1e0/grbbkwh2skwo624mv0vh9hb37lwt9o1u/12216_av_2f_16a_schneider_electric_6.jpg",
+          "url": "https://ekt.kz/catalog/novinki/shchitovoe_oborudovanie_aktsiya_10/12216_av_2f_16a_schneider_electric_6/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=33711",
+          "offers": []
+        },
+        {
+          "id": 33712,
+          "name": "12220 АВ (2ф) 20А Schneider Electric (6)",
+          "article": "010400578_",
+          "price": 5270,
+          "image": "https://ekt.kz/upload/iblock/270/xi9vc395q9sn44in7rvklxmoovckvznp/12220_av_2f_20a_schneider_electric_6.jpg",
+          "url": "https://ekt.kz/catalog/novinki/shchitovoe_oborudovanie_aktsiya_10/12220_av_2f_20a_schneider_electric_6/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=33712",
+          "offers": []
+        },
+        {
+          "id": 33713,
+          "name": "12225 АВ (2ф) 25А Schneider Electric (6)",
+          "article": "010400579_",
+          "price": 5270,
+          "image": "https://ekt.kz/upload/iblock/956/snb4wa9ko96l88dyzt34678e3zfswi9o/12225_av_2f_25a_schneider_electric_6.jpg",
+          "url": "https://ekt.kz/catalog/novinki/shchitovoe_oborudovanie_aktsiya_10/12225_av_2f_25a_schneider_electric_6/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=33713",
+          "offers": []
+        },
+        {
+          "id": 33714,
+          "name": "12232 АВ (2ф) 32А Schneider Electric (6)",
+          "article": "010400580_",
+          "price": 7330,
+          "image": "https://ekt.kz/upload/iblock/5b6/wb404oet9e4x1rr4s7sk1oju4ctsdejy/12232_av_2f_32a_schneider_electric_6.jpg",
+          "url": "https://ekt.kz/catalog/novinki/shchitovoe_oborudovanie_aktsiya_10/12232_av_2f_32a_schneider_electric_6/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=33714",
+          "offers": []
+        },
+        {
+          "id": 33715,
+          "name": "12240 АВ (2ф) 40А Schneider Electric (6)",
+          "article": "010400581_",
+          "price": 7330,
+          "image": "https://ekt.kz/upload/iblock/0f1/fotmjy0r1e0hf513sooluband0k1bbo1/12240_av_2f_40a_schneider_electric_6.jpg",
+          "url": "https://ekt.kz/catalog/novinki/shchitovoe_oborudovanie_aktsiya_10/12240_av_2f_40a_schneider_electric_6/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=33715",
+          "offers": []
+        },
+        {
+          "id": 33716,
+          "name": "12250 АВ (2ф) 50А Schneider Electric (6)",
+          "article": "010400582_",
+          "price": 10130,
+          "image": "https://ekt.kz/upload/iblock/37b/g0ta3mq594g443bztm1k78vsubb1k5ox/12250_av_2f_50a_schneider_electric_6.jpg",
+          "url": "https://ekt.kz/catalog/novinki/shchitovoe_oborudovanie_aktsiya_10/12250_av_2f_50a_schneider_electric_6/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=33716",
+          "offers": []
+        },
+        {
+          "id": 33717,
+          "name": "12263 АВ (2ф) 63А Schneider Electric (6)",
+          "article": "010400583_",
+          "price": 10860,
+          "image": "https://ekt.kz/upload/iblock/3a6/ibvyddtuo9yygvvn63n530q013e5dopq/12263_av_2f_63a_schneider_electric_6.jpg",
+          "url": "https://ekt.kz/catalog/novinki/shchitovoe_oborudovanie_aktsiya_10/12263_av_2f_63a_schneider_electric_6/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=33717",
+          "offers": []
+        },
+        {
+          "id": 33718,
+          "name": "12306 АВ (3ф) 6А Schneider Electric (4)",
+          "article": "010400584_",
+          "price": 8520,
+          "image": "https://ekt.kz/upload/iblock/74c/q92l2p18ca50gqaf32yoxvn21g9ehty6/12306_av_3f_6a_schneider_electric_4.jpg",
+          "url": "https://ekt.kz/catalog/novinki/shchitovoe_oborudovanie_aktsiya_10/12306_av_3f_6a_schneider_electric_4/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=33718",
+          "offers": []
+        },
+        {
+          "id": 33719,
+          "name": "12310 АВ (3ф) 10А Schneider Electric (4)",
+          "article": "010400585_",
+          "price": 7860,
+          "image": "https://ekt.kz/upload/iblock/921/ydqufnfl1y7fa9fc93qqmk7k944qnv50/12310_av_3f_10a_schneider_electric_4.jpg",
+          "url": "https://ekt.kz/catalog/novinki/shchitovoe_oborudovanie_aktsiya_10/12310_av_3f_10a_schneider_electric_4/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=33719",
+          "offers": []
+        }
+      ]
+    }
+  },
+  {
+    "params": {
+      "page": 1000
+    },
+    "response": {
+      "page": 1000,
+      "per_page": 20,
+      "count": 20,
+      "items": [
+        {
+          "id": 45357,
+          "name": "***LED STARK 30W 2400Lm d98x180 4000K IP20 MEGALIGHT (20)",
+          "article": "ярп4520",
+          "price": 1810,
+          "image": "https://ekt.kz/upload/iblock/c39/u58k0kbv7koy4uikpznyywf0i5h1my7e/led_stark_30w_2400lm_d98x180_4000k_ip20_megalight_20.jpg",
+          "url": "https://ekt.kz/catalog/spets_predlozhenie/aktsiya_megalight_polnyy_sklad_polnyy_bak/_led_stark_30w_2400lm_d98x180_4000k_ip20_megalight_20/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=45357",
+          "offers": []
+        },
+        {
+          "id": 25397,
+          "name": "007886 Диф.авт. 1p+N 16А (30мА) 411002 Legrand (1)!!!",
+          "article": "310100080_",
+          "price": 9430,
+          "image": null,
+          "url": "https://ekt.kz/catalog/spets_predlozhenie/differentsialnye_ustroystva_uzo_avdt_vd/007886_dif_avt_1p_n_16a_30ma_411002_legrand_1_/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=25397",
+          "offers": []
+        },
+        {
+          "id": 58379,
+          "name": "010-002 УПп 60/40.1.1 со стыковочными узлами и винтами",
+          "article": "030300435_",
+          "price": 53,
+          "image": "https://ekt.kz/upload/iblock/df5/j2h6n71ed0v5lrn9e0tko32p70s9i9mp/010_002_upp_60_40_1_1_so_stykovochnymi_uzlami_i_vintami.jpg",
+          "url": "https://ekt.kz/catalog/avtomatizatsiya/ustroystva_plavnogo_puska_iek_/010_002_upp_60_40_1_1_so_stykovochnymi_uzlami_i_vintami/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=58379",
+          "offers": []
+        },
+        {
+          "id": 58380,
+          "name": "010-005 УПрк 97/50.1.1",
+          "article": "030300438_",
+          "price": 199,
+          "image": "https://ekt.kz/upload/iblock/452/p7c0wmkvp2orswbiqrr7x7i3oj9g91te/010_005_uprk_97_50_1_1.jpg",
+          "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/korobki/raspredelitelnye_1/010_005_uprk_97_50_1_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=58380",
+          "offers": []
+        },
+        {
+          "id": 58412,
+          "name": "020-007 Коробка для полых стен с мет. лапками и крышкой УПрк 97/50.1.2. (КМ-206)",
+          "article": "030300329_",
+          "price": 293,
+          "image": "https://ekt.kz/upload/iblock/e6c/xvr6h6018pvtevvtawo09e3nxrynwkcu/020_007_korobka_dlya_polykh_sten_s_met_lapkami_i_kryshkoy_uprk_97_50_1_2_km_206.jpg",
+          "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/korobki/ustanovochnye_podrozetniki/020_007_korobka_dlya_polykh_sten_s_met_lapkami_i_kryshkoy_uprk_97_50_1_2_km_206/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=58412",
+          "offers": []
+        },
+        {
+          "id": 58368,
+          "name": "020-008 Коробка разв.107х107х53 г/к УПрк 110/45.2.2. (72 шт)",
+          "article": "030300044_",
+          "price": 414,
+          "image": "https://ekt.kz/upload/iblock/c41/rqm4qng5ho5yn5b9upprkr9mm3o5b17r/020_008_korobka_razv_107kh107kh53_g_k_uprk_110_45_2_2_72_sht.jpg",
+          "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/korobki/raspredelitelnye_1/020_008_korobka_razv_107kh107kh53_g_k_uprk_110_45_2_2_72_sht/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=58368",
+          "offers": []
+        },
+        {
+          "id": 58378,
+          "name": "020-108 Коробка распаячная для полых стен с пласт. Лапками и крышкой 110/50.2.2",
+          "article": "030300426_",
+          "price": 350,
+          "image": "https://ekt.kz/upload/iblock/f59/ibj4vzbol2318jo1ukilbozywunlsnal/020_108_korobka_raspayachnaya_dlya_polykh_sten_s_plast_lapkami_i_kryshkoy_110_50_2_2.jpg",
+          "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/korobki/raspredelitelnye_1/020_108_korobka_raspayachnaya_dlya_polykh_sten_s_plast_lapkami_i_kryshkoy_110_50_2_2/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=58378",
+          "offers": []
+        },
+        {
+          "id": 515279,
+          "name": "027004 АВ DRX125 MT 3ф 40А 10ka Legrand (1)",
+          "article": "200300273_",
+          "price": 26930,
+          "image": "https://ekt.kz/upload/iblock/592/ecrd69l3r236hyuttkj4lmnz1euly1a7/027004_av_drx125_mt_3f_40a_10ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx125_mt_10_250_a_legrand/027004_av_drx125_mt_3f_40a_10ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515279",
+          "offers": []
+        },
+        {
+          "id": 515280,
+          "name": "027005 АВ DRX125 MT 3ф 50А 10ka Legrand (1)",
+          "article": "200300274_",
+          "price": 26930,
+          "image": "https://ekt.kz/upload/iblock/e99/yqvedowbaop1fju39ky9pau7rmv6qj63/027005_av_drx125_mt_3f_50a_10ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx125_mt_10_250_a_legrand/027005_av_drx125_mt_3f_50a_10ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515280",
+          "offers": []
+        },
+        {
+          "id": 515278,
+          "name": "027008 АВ DRX125 MT 3ф 100А 10ka Legrand (1)",
+          "article": "200300272_",
+          "price": 29190,
+          "image": "https://ekt.kz/upload/iblock/dd5/m7bhmskgees6tmeh613tz5k3q10oldar/027008_av_drx125_mt_3f_100a_10ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx125_mt_10_250_a_legrand/027008_av_drx125_mt_3f_100a_10ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515278",
+          "offers": []
+        },
+        {
+          "id": 515282,
+          "name": "027022 АВ DRX125 MT 3ф 25А 20ka Legrand (1)",
+          "article": "200300276_",
+          "price": 29810,
+          "image": "https://ekt.kz/upload/iblock/076/0k32d23w57a0leyiunq6o8yltqfoynmw/027022_av_drx125_mt_3f_25a_20ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx125_mt_10_250_a_legrand/027022_av_drx125_mt_3f_25a_20ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515282",
+          "offers": []
+        },
+        {
+          "id": 515283,
+          "name": "027024 АВ DRX125 MT 3ф 40А 20ka Legrand (1)",
+          "article": "200300277_",
+          "price": 29810,
+          "image": "https://ekt.kz/upload/iblock/4ec/vurn6p0w0a2y95fktv0n66mrgjig0s08/027024_av_drx125_mt_3f_40a_20ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx125_mt_10_250_a_legrand/027024_av_drx125_mt_3f_40a_20ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515283",
+          "offers": []
+        },
+        {
+          "id": 515281,
+          "name": "027028 АВ DRX125 MT 3ф 100А 20ka Legrand (1)",
+          "article": "200300275_",
+          "price": 33130,
+          "image": "https://ekt.kz/upload/iblock/569/ys2rqxp1g7tpg7hxtuht2747ni73l53a/027028_av_drx125_mt_3f_10a_20ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx125_mt_10_250_a_legrand/027028_av_drx125_mt_3f_10a_20ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515281",
+          "offers": []
+        },
+        {
+          "id": 515290,
+          "name": "027100 АВ DRX250 MT 3ф 125А 18ka Legrand (1)",
+          "article": "200300284_",
+          "price": 64780,
+          "image": "https://ekt.kz/upload/iblock/053/vgn63u873t0vhpsub4zuzd6met8zgb91/027100_av_drx250_mt_3f_125a_18ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx250_mt_10_250_a_legrand/027100_av_drx250_mt_3f_125a_18ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515290",
+          "offers": []
+        },
+        {
+          "id": 515292,
+          "name": "027103 АВ DRX250 MT 3ф 200А 18ka Legrand (1)",
+          "article": "200300286_",
+          "price": 69880,
+          "image": "https://ekt.kz/upload/iblock/be3/e0ed5wa8ni54hge5z0fmtauhuzudpgx6/027103_av_drx250_mt_3f_200a_18ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx250_mt_10_250_a_legrand/027103_av_drx250_mt_3f_200a_18ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515292",
+          "offers": []
+        },
+        {
+          "id": 515286,
+          "name": "027105 АВ DRX250 MT 3ф 250А 18ka Legrand (1)",
+          "article": "200300280_",
+          "price": 69910,
+          "image": "https://ekt.kz/upload/iblock/75b/0w9qn9kumrcv9hqb7s6iegdf2g4b6cpw/027105_av_drx250_mt_3f_250a_18ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx250_mt_10_250_a_legrand/027105_av_drx250_mt_3f_250a_18ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515286",
+          "offers": []
+        },
+        {
+          "id": 515287,
+          "name": "027112 АВ DRX250 MT 3ф 125А 25ka Legrand (1)",
+          "article": "200300281_",
+          "price": 65450,
+          "image": "https://ekt.kz/upload/iblock/828/jx7tloq0z13y4ipsiqs83wuqry8t7xj3/027112_av_drx250_mt_3f_125a_25ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx250_mt_10_250_a_legrand/027112_av_drx250_mt_3f_125a_25ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515287",
+          "offers": []
+        },
+        {
+          "id": 515289,
+          "name": "027115 АВ DRX250 MT 3ф 200А 25ka Legrand (1)",
+          "article": "200300283_",
+          "price": 71160,
+          "image": "https://ekt.kz/upload/iblock/42d/gn2fvf89vn2tgkwzuiurcw99s9mgjbda/027115_av_drx250_mt_3f_200a_25ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx250_mt_10_250_a_legrand/027115_av_drx250_mt_3f_200a_25ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515289",
+          "offers": []
+        },
+        {
+          "id": 515293,
+          "name": "027117 АВ DRX250 MT 3ф 250А 25ka Legrand (1)",
+          "article": "200300287_",
+          "price": 76940,
+          "image": "https://ekt.kz/upload/iblock/9cd/utqxpur1mensee2kealvq68ta9kenbep/027117_av_drx250_mt_3f_250a_25ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx250_mt_10_250_a_legrand/027117_av_drx250_mt_3f_250a_25ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515293",
+          "offers": []
+        },
+        {
+          "id": 515285,
+          "name": "027220 АВ DRX125 MT 3ф 63А 20ka Legrand (1)",
+          "article": "200300279_",
+          "price": 31620,
+          "image": "https://ekt.kz/upload/iblock/ef5/utqen57lj3c7fjwfifxooatqtxcz3e2g/027220_av_drx125_mt_3f_63a_20ka_legrand_1.jpg",
+          "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx125_mt_10_250_a_legrand/027220_av_drx125_mt_3f_63a_20ka_legrand_1/",
+          "url_api_detail": "https://ekt.kz/api/products/detail?id=515285",
+          "offers": []
+        }
+      ]
+    }
+  }
+]
